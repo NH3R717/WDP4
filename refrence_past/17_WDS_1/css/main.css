@@ -1,0 +1,450 @@
+/* Hiker's Guide CSS
+================================================== 
+================================================== */
+
+
+/* default size and style */
+
+
+/* sets font size rem values to be adjustable by base 10 */
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* sets up page default style */
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+button,
+address,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+input,
+article,
+footer,
+header,
+nav,
+section {
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1.4rem/1.5 "Program OT", Arial, sans-serif;
+    background: #222222;
+}
+
+
+/* heading tag styles */
+
+h2 {
+    color: #eeeeee;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-family: "Georgia Bold";
+    color: #cccccc;
+    font-size: 2.4rem;
+}
+
+h4 {
+    color: #aaaaaa;
+    font-size: 1.8rem;
+}
+
+h5 {
+    color: #aaaaaa;
+    font-size: 1.4rem;
+}
+
+p {
+    color: #888888;
+    font-size: 1.4rem;
+}
+
+
+/* header styles */
+
+#main h1 {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    color: #EEEEEE;
+    display: block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+nav a:hover {
+    opacity: 1.0;
+}
+
+
+/* footer styles */
+
+footer {
+    color: #16A085;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 100px;
+}
+
+footer li {
+    float: right;
+    display: inline;
+    margin: 5px;
+}
+
+footer img {
+    opacity: 0.5;
+}
+
+footer img:hover {
+    opacity: 1.0;
+}
+
+#aboutUs {
+    display: grid;
+    grid-template-columns: 300px 200px 400px;
+    grid-gap: 50px;
+}
+
+#events li {
+    color: #AAAAAA;
+    font-weight: 900;
+    list-style-type: none;
+}
+
+#events li {
+    color: #888888;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+#hikers li {
+    color: #AAAAAA;
+    font-weight: 900;
+    float: right;
+    list-style-type: none;
+}
+
+#hikers li {
+    color: #888888;
+    list-style-type: none;
+}
+
+
+/* index.html locations slider */
+
+#locations,
+#headerLocations {
+    /* height: 53rem; */
+    padding: 20rem 0 15rem 2rem;
+    transform: rotate(0deg);
+    /* background property */
+    background: url(../images/hikers1001.jpg) no-repeat top/cover;
+}
+
+#locations article,
+#headerLocations {
+    margin: 0 10% 0;
+    max-width: 50rem;
+    padding: 1rem 2rem;
+    background: #222222;
+    border-right: 1rem solid #1abc9c;
+}
+
+#headerLocations {
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+    margin: 1rem 5rem 1rem 0;
+    padding: 0.5rem;
+}
+
+#headerLocations {
+    font-size: 1.4rem;
+    line-height: 115%;
+}
+
+#locations article {
+    margin: 0 15% 0 50%;
+}
+
+#locations ul {
+    /* position property */
+    position: absolute;
+    top: 40%;
+    right: 7rem;
+    /* list style type */
+    list-style-type: none;
+}
+
+#locations ul button {
+    opacity: 0.45;
+    margin-bottom: 0.4rem;
+    height: .75rem;
+    width: .75rem;
+    /* clears text from button slider buttons */
+    text-indent: -100000px;
+    /* border-radius for individual buttons (from square to round) */
+    border-radius: 50%;
+}
+
+
+/* sudo-class first/last-of-type */
+
+#locations ul :first-of-type button {
+    background: url(../images/left.png) no-repeat;
+    left: 7.15rem;
+}
+
+#locations ul :last-of-type button {
+    background: url(../images/right.png) no-repeat;
+    right: 7.15rem;
+}
+
+#locations ul :first-of-type button,
+#locations ul :last-of-type button {
+    width: 3.2rem;
+    height: 3.2rem;
+    position: fixed;
+    top: 17rem;
+}
+
+
+/* button properties */
+
+#locations ul :first-of-type button:hover,
+#locations ul :last-of-type button:hover {
+    opacity: 1;
+}
+
+
+/* recent posts */
+
+.grid {
+    padding: 110px;
+    border: 210px;
+    display: grid;
+    gap: 5rem;
+    /* 3 columns */
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+#post button {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    background: #1abc9c;
+    display: block;
+    margin: 0 0 4px 0;
+    color: #111111;
+}
+
+
+/* call to action */
+
+#actionCall {
+    background-image: url("../images/climbers.png"), url("../images/hikers1001.jpg");
+    background-color: #16A085;
+    background-position: bottom, bottom;
+    background-size: 45%, 1950px 620px;
+    background-repeat: no-repeat;
+    padding: 7em;
+    background-blend-mode: normal, screen;
+}
+
+#actionCall button {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    background: #1abc9c;
+    display: block;
+    margin: 0 0 4px 0;
+    color: #111111;
+}
+
+
+/* events hikers about */
+
+.eventsHikersAbout {
+    display: grid;
+    grid-template-columns: 300px 200px 400px;
+    grid-gap: 400px;
+    justify-content: center;
+}
+
+#events h3,
+#hikers h3,
+#about h3 {
+    border-bottom: solid 1px #888888;
+    margin-bottom: 30px;
+}
+
+
+/* blog.html styles */
+
+.blogPage {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-gap: 200px;
+    justify-content: center;
+}
+
+.blogPage p {
+    text-align: center;
+}
+
+.blogPage p,
+.blogPage img:first-of-type {
+    /* round images */
+    border-radius: 50%;
+}
+
+.authorDate {
+    display: inline-block;
+    justify-content: center;
+}
+
+.authorDate {
+    display: inline-block;
+    justify-content: center;
+}
+
+
+/* events.html styles */
+
+#eventsPage h2 {
+    background-color: #16A085;
+    text-align: center;
+}
+
+#eventsPage {
+    margin: 4rem;
+    border: .2rem solid #16A085
+}
+
+#eventsPage article {
+    padding: 80px 60px
+}
+
+#eventsPage article p {
+    padding: 20px 00px
+}
+
+#eventsPage article h3,
+#eventsPage article h4 {
+    padding: 00px 80px
+}
+
+#eventsPage article h4,
+.locationState {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+#eventsPage article h3 {
+    font-size: 3.5rem;
+}
+
+
+/* contact.html styles */
+
+#addressForm {
+    justify-content: center;
+}
+
+#contactForm h2 {
+    text-align: left;
+    padding: 1rem 5rem;
+    margin: 12rem 0 3rem 0;
+}
+
+#addressForm {
+    display: grid;
+    grid-template-columns: 300px 200px 400px;
+    grid-gap: 50px;
+}
+
+#contactForm form {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 1rem 1rem 1rem;
+    padding: 1rem 2rem;
+}
+
+#contactForm form label {
+    display: block;
+    padding: .5rem 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #eeeeee;
+}
+
+#contactForm form button {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .2rem 3.5rem;
+    background: #1abc9c;
+    display: block;
+    margin: 0 0 4px 0;
+    color: #111111;
+}
+
+#googleMaps {
+    padding: 2rem;
+}
+
+#address {
+    padding: 0px 2rem;
+    font-size: 1.2rem;
+    color: #eeeeee;
+}
+
+#currentWeather {
+    margin: 0 1rem 1rem 1rem;
+    padding: 1rem 2rem;
+}
+
+#weatherButton {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .2rem 3.5rem;
+    background: #1abc9c;
+    display: block;
+    margin: 2rem;
+    color: #111111;
+}

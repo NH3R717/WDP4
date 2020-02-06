@@ -1,0 +1,60 @@
+To Do
+
+    GENERAL & Critique Suggestions
+
+    [x] swap article section tags
+    [x] remove individual task box
+    • replaced with border-bottom solid line
+    [x] remove class and type from button tag
+    [] refactor div wrapper
+    • moved to innerHTML
+    • absolute position time tag right adjacent to task title
+    [] check into spell check tag
+    [] stick footer to page bottom
+    [] add footer content
+    [x] 'consistisize' var names 
+    [x] move header/footer mixin code to base (no plans to be reused)
+    [x] remove <meta name="viewport"...> max scale restrictions
+    [x] change author comment section to between language tag and head tag
+    [x] consolidate SASS extent file
+
+    New Issues
+    [x] why do all articles extend when cards are added to one (in row layout [not an issue in column])
+    * changed flex property
+    [] colum 1 does ont keep an equal width with 2 & 3
+
+    [] improve CSS
+        [] main head text
+        [] main head pattern
+        [] matching card & task background color
+        [] card & task text
+        [] button style
+        [] colum 1 does ont keep an equal width with 2 & 3
+        [] footer position & content
+    [] toggle form with "add task" button
+
+    Milestone_2 Requirements
+    [x] setup Glitch server (?)
+    [o] chose and setup an external API
+    • not a requirement
+    [x] connect api via fetch method and populate page with api data
+    [x] setup form to take user input
+    [] add input to webpage
+
+    Later
+    [] add u/i customization
+    allow user to chose a page mascot from pokemon api
+    – or
+    add field to webpage that lets the user input their location
+    api data populates on a section of the webpage (footer or top right)
+
+    Two design/develop form that lets user add info add a task card to the page (but does not actually add a card to a task section as that will be handled next week?) 
+
+    So these could be separate?
+
+    /* ISSUES & Q's:
+    not seeing the detailed instructions for setting upa Glitch server in the assignment
+    * problem was not understanding the purpose of the glitch API – which in plain language is to add mock task cards to project html. this is coupled with my understanding of APIs and confusion of the API requirement overall, "is there some other API than needs to be used"?
+
+
+   

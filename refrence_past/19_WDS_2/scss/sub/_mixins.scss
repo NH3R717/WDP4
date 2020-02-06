@@ -1,0 +1,55 @@
+// mixins
+// 
+// flex for main content
+@mixin mainFlex () {
+    display: flex;
+    padding: 2em 2em 0 2em;
+}
+
+// flex for sizes above mobile
+@mixin aboveMobileFlex {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@mixin mobileHeader {
+    font-size: 3em;
+    padding: .2em .5em .2em .5em;
+    margin: 0em .3em .2em .3em;
+}
+
+// task sections (3)
+@mixin taskDivision () {
+    flex: 1;
+    height: min-content;
+    padding: .8em .8em 2.4em;
+    margin: 0 .6em 3em .6em;
+    border: .2em solid;
+    border-color: $borderColor;
+    border-radius: 1.9em;
+    box-shadow: $dropShadow;
+    text-shadow: $dropShadow;
+}
+
+// task section header
+@mixin taskHeader {
+    display: flex;
+    font-family: 'Andrographis';
+    color: $headerFontColor;
+    font-size: 1.4em;
+    justify-content: space-between;
+    padding: 0.4em .2em 0.8em 0.7em;
+    margin-bottom: 0.2em;
+    border-bottom: .3em solid $borderColor;
+    h2 {
+        font-size: 2em;
+        text-shadow: $dropShadow;
+    }
+}
+
+// individual tasks
+@mixin taskCard {
+    padding: 0.8em 0.6em;
+    margin: 0 .45em 1em;
+    border-bottom: .2em solid $borderColor
+}

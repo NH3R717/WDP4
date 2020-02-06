@@ -1,0 +1,293 @@
+To Do
+
+[x] spelling tag/property
+[] make close button selectable when focused
+[] switch form from innerHTML to modal or find way to include in proper order (add CSS to this) – adding CSS to the form is being problematic
+[x] make screen reader operational for task form (switch to modal)
+[] add CSS form validation  – low priority time not permitted
+[x] change pointer during button hover
+[] make recognizable via tab input key press
+[x] make general accessibility improvements – made
+[o] add edit/delete capability – low priority time not permitted
+[x] footer bounce
+[x] increase task section h3 text size
+
+– from feedback specific
+[x] improve content focus 
+    [x] lighten body pattern background color
+    [x] reduce task section transparency
+    [-] change task section background color hue/tone (add more yellow)
+[x] improve CSS unit consistency (px, em, rem, etc.)
+    [x] refactor all unit instances to 'em'
+[x] change mascot placement – png images from pokèmon api are inconsistent in size / current location is the most ideal 
+    [x] refactor footer stick rules
+[x] refactor modal
+    [x] html
+    [x] css
+[x] add datetime attribute to time tag
+[x] remove all '<br>'
+[x] section task form with <div>
+[x] switch close <span> to a <button>
+[] refactor onClick in html to event listener in javascript
+[x] refactor unnecessary classes and labels - removed
+[x] make button function self evolving
+
+Notes
+
+* time and knowledge constraints even with 6+ days a week work
+* Review DWS 1 info
+
+• font hierarchy –> WOFF(2) TTF OFT SVG
+• Safari – no section text or box shadows even though they are displayed as CSS rules in dev tools
+• considerable time was spent on responsive design CSS rules
+
+Video Review
+
+– Assignment Requirements
+• mascot  placement
+    • supplement button (may cause confusion with that being a button in the future, image size is not standard)
+    • stick to bottom of todo card
+• lighten the background pattern
+• typography – increase size
+• aria – focus on html 1st, then add aria
+* didn't focus on adding aria tags to semantic html as mozilla recommends not to do that
+* 7:15 – aria modal hidden CSS enhancement
+• add accessability improvements (box highlights individually event listeners on blur of item inject labels)
+* expand on usability and javascript validation
+• 
+
+Assignment Milestone_4 Requirements
+
+[x] use of transitions – transitions implemented in mascot modal
+[x] multiple browser testing – 
+    [x] FireFox
+    [x] Safari 
+    [x] Chrome/Brave
+[x] Code Review and Update
+    [x] remove dev comments and console.logs()
+    [x]  update readme.md
+
+Issues Mentioned in Feedback Video
+
+Notes to instructor – wasn't able to apply CSS rules to task form for some reason, any specific feedback on why this was an issue?
+
+[x] mascot placement – current placement works best with the mobile 1st design as when reducing the screen to 320px having the mascot in the page header become problematic, there are many reasons for this but one of the main reasons is that mascots come in various sizes from the api (example Squirtle [small] vs Charmander [large]) with in the same png (same image size but each character may be larger or small with in that form)
+
+[x] design overpowering background – section opacity increased, background pattern colors lightened and made smaller to bringing focus on the task content
+
+[x] accessibility (html semantics 1st, improved html semantics added labels to relevant tags improved ARIA (review the ARIA lesson)) – added aria-label to parts relevant page elements
+* add ARIA to identify hidden mascot modal
+
+[o] form validation (check lesson & add JS 'on blur') – time constrain prevent this
+
+[x] no time datetime attribute - added
+
+[x] text vs text area – use input for Task Title & textarea for Task Description
+
+[x] br tags – removed
+
+[x] task form unclosed div tag – refactored form html
+
+[x] task form missing input quotes – added
+
+[x] unused classes – removed
+
+[x] textarea do not have type attributes type – removed
+
+[x] task form concatenation in label - removed
+
+[x] modal nested divisions (non semantic) – refactored into form with semantic sub elements 
+
+[x] br tags – removed
+
+[x] form action method="POST" – removed / breaks page (but kept in the task form)
+
+[x] button type vs submit – use submit
+
+[x] blank ARIA attribute – added description
+
+[x] minlength attribute duplicated = removed one instance
+
+[x] mascot modal refactor button html onClick  – time constrain prevent this
+
+[0] add form action= removed all form actions (not required) and method attribute from form elements
+ 
+[x] unnecessary use of ID (body header) – * using element selector gives unwanted styles to the modal header
+
+[x] unit consistency (px / rem / em) – refactored to consistent use of em
+
+[x] use of negative margin – changed instance mentioned in the video but added in another section (* according to W3C negative margin is 'ok' - https://www.w3.org/TR/CSS2/box.html#margin-properties "Negative values for margin properties are allowed, but there may be implementation-specific limits.")
+
+[x] event listener  – time constrain prevent this
+
+[x] button type vs submit – use submit
+
+[x] !important – removed
+
+[x] overly specific use of css selectors in nesting – did not notice this instance or had been addressed earlier
+
+[x] time display: flex – refactored to used "block and align end"
+
+[o] refactor section button loop – current version works, could not get function to refactor as described in feedback video
+
+[x] remove debugging comments and consol logs (last)
+
+[x] button() make self-involving – refactored to self-involving function
+
+[x] more descriptive function names – button() to addTaskBtn()
+
+[x] remove var as variable declaration
+
+[x] refactored inline form to modal
+
+– Code Quality
+
+    – glitchGet.js
+• check time tag and add attribute for the used date format
+* <time datetime="YYYY-MM-DD"> 2020-01-20 </time> ?
+
+• better format of this element to input type="text"
+*"formHtml += '<textarea type="text" aria-label="" name=taskName cols="70" rows="1" required id="taskTitle" minlength="2"></textarea>';"
+
+• better format the following line removing the concatenation
+*// formHtml += '<label for="taskTitle" class=labelText>' + "Title" + '</label>';
+            formHtml += '<label for="taskTitle" class="label" Text>"Title"</label>';
+
+• quote consistency (single or double?)
+
+• remove <br> tags (and replace with <div> where needed)
+* each area in w/in a form is represented with a div element
+
+• class="label" (use or remove)
+
+    – index.html
+• difference between using code snippets and 'plagiarizing'?
+• modal
+    • improve modal semantics
+    • tabindex="0" adding tab to screen reader recommend accessibility standard for making non-tabable element tabable for screen reader
+    • switch modal to a form and include and/or replace <div> with more semantic elements
+    • switch modal close element to actual button
+    • switch onSubmit() to event listener in javascript
+    • form consistency
+
+    – CSS 
+• CSS id – use type selector here
+    *<header id="pageHeader">
+        <h1 tabindex="0">Task Tracker</h1>
+        <button tabindex="0" id="mascotButton">Mascot</button>
+• em / rem / px
+    (my choice is em)
+• negative margin (pokemon)
+• !important (refactor to make this not necessary)
+• reduce nesting
+• time 
+    * display flex (display block – align left)
+
+    –glitchPost.js – 45:00
+• event listeners for task add buttons
+    * make self evoking
+• refactor variable declarations
+
+
+/* Modal */
+
+// const modal = document.querySelector("#mascotModal");
+
+// const newMascotBtn = document.querySelector("#mascotButton");
+
+// const closeBtn = document.querySelector("#close");
+
+// // newMascotBtn.onclick = function() {
+// //     modal.style.display = "block";
+// // };
+
+// newMascotBtn.addEventListener("click", modal.style.display = "block");
+
+// // closeBtn.onclick = function() {
+// //     modal.style.display = "none";
+// // };
+// closeBtn.addEventListener("click", modal.style.display = "none");
+
+// // window.onclick = function(event) {
+// //     if (event.target == modal) {
+// //         modal.style.display = "none";
+// //     }
+// // };
+
+// object.addEventListener("click", (event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// });
+
+// object.addEventListener("click", myScript);
+
+/* Modal */
+
+const modal = document.querySelector("#mascotModal");
+
+modal.addEventListener('submit', function(e) {
+
+    e.preventDefault();
+
+    const closeBtn = document.querySelector("#close");
+
+    const newMascotBtn = document.querySelector("#mascotButton");
+
+    const addPokeBtn = document.querySelector("#addPokemon");
+
+    addPokeBtn.addEventListener("submit");
+
+    newMascotBtn.addEventListener("click"); {
+        modal.style.display = "block";
+    };
+
+    closeBtn.addEventListener("click"); {
+        modal.style.display = "none";
+    };
+
+    window.addEventListener("click"); {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+});
+
+Original
+
+
+/* Modal */
+
+const modal = document.querySelector("#mascotModal");
+
+// const newMascotBtn = document.querySelector("#mascotButton");
+
+// const closeBtn = document.querySelector("#close");
+
+// const addPokeBtn = document.querySelector("#addPokemon");
+
+// addPokeBtn.addEventListener("submit");
+
+document.querySelector("#mascotButton").addEventListener("click", function() {
+    modal.style.display = "block";
+});
+
+document.querySelector("#close").addEventListener("click", function() {
+    modal.style.display = "none";
+});
+
+document.getElementById("myBtn").addEventListener("click", function() {
+    document.getElementById("demo").innerHTML = "Hello World";
+});
+
+// window.addEventListener("click", function() {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// });
+
+window.addEventListener("click"); {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};

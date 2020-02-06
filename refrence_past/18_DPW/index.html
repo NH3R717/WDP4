@@ -1,0 +1,99 @@
+<!-- 
+
+/* 
+   • Umholtz, Tommy
+   • Full Sail University
+   • Web Design and Development, Bachelors of Science – Online
+   • Design Patterns for Web Programming (DPW)
+   • Week 3 
+   • Assignment 4 - JavaScript MVC + Custom Events
+   
+   */
+   
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trip Logger Factory</title>
+
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+
+<body>
+
+    <section class="container">
+        <h1>Personal Trip Logger 3.0</h1>
+        <form>
+
+            <div class="formFields">
+                <label for="continent">Continent:</label>
+                <select name="continent" id="continent">
+                <option value="Africa">Africa</option>
+                <option value="Antarctica">Antarctica</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Oceania">Oceanian</option>
+                <option value="NAC">NAC</option>
+                </select>
+            </div>
+
+            <div class="formFields">
+                <label for="place">Place:</label>
+                <input type="text" value="" class="fields" id="place" placeholder=" Place">
+            </div>
+
+            <div class="formFields">
+                <label for="date">Date:</label>
+                <input type="date" value="" class="fields" id="date" />
+            </div>
+
+            <div class="formFields">
+                <label for="km">KM Traveled:</label>
+                <input type="text" value="" class="fields" id="km" placeholder=" Kilometers">
+            </div>
+
+            <br>
+            <div class="bttnDiv">
+                <button type="button" id="bttnAdd" class="bttn">Add Trip</button>
+                <button type="button" id="bttnDisplay" class="bttn">Display Trips</button>
+                <button type="reset" id="reset" class="bttn">Clear Form</button>
+            </div>
+
+        </form>
+
+        <table id="dataTable" class="displayTable">
+            <thead>
+                <tr id="tableRows">
+                    <td>Region</td>
+                    <td>Place</td>
+                    <td>Date</td>
+                    <td>Kilometers</td>
+                    <!-- <td>Miles</td>
+                    <td>Nautical Miles</td> -->
+                </tr>
+            </thead>
+
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+
+    </section>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/concreteclasses.js"></script>
+    <script src="./js/factory.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

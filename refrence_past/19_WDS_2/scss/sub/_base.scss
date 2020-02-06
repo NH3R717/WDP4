@@ -1,0 +1,144 @@
+                             /* 
+   • Umholtz, Tommy
+   • Full Sail University
+   • Web Design and Development, Bachelors of Science – Online
+   • Web Design Standards 2 (WDSII)
+   
+   */
+                             
+                             //  main header
+                             #pageHeader {
+                                 font-family: 'Andrographis', bold;
+                                 font-size: 3.5em;
+                                 color: $headerFontColor;
+                                 text-shadow: $dropShadow;
+                                 display: flex;
+                                 justify-content: space-between;
+                                 padding: .2em .8em .4em .8em;
+                                 margin: 0em .6em 1em .6em;
+                                 border-bottom: .1em solid $borderColor;
+                             }
+                             
+                             article {
+                                 text-shadow: $dropShadow;
+                             }
+                             
+                             section {
+                                 background-color: $taskSectionBackground;
+                             }
+                             
+                             html {
+                                 position: relative;
+                                 min-height: 100%;
+                             }
+                             
+                             body {
+                                 margin: 0 0 16em;
+                                 padding: 1.2em
+                             }
+                             
+                             #mascotButton {
+                                 border-style: none;
+                                 font-size: 1.2em;
+                                 box-shadow: none;
+                             }
+                             
+                             button {
+                                 background-color: rgba(255, 255, 255, 0);
+                                 font-family: 'Andrographis', bold;
+                                 color: $buttonTimeColor;
+                                 font-size: 1em;
+                                 border-style: solid;
+                                 border-color: $buttonTimeColor;
+                                 border-radius: 10em;
+                                 text-shadow: $dropShadow;
+                                 transition: .3s;
+                             }
+                             
+                             button:hover {
+                                 transform: scale(1.05);
+                                 color: rgb(110, 194, 84);
+                                 text-shadow: .08em .08em .06em gray;
+                                 cursor: pointer;
+                             }
+                             
+                             footer {
+                                 display: flex;
+                                 position: absolute;
+                                 bottom: 0;
+                                 height: 16em;
+                                 padding: 0 0 2em 0;
+                                 img {
+                                     margin-left: 1em;
+                                 }
+                             }
+                             
+                             textarea {
+                                 width: 85%;
+                             }
+                             
+                             @media all and (min-width: 1201px) and (max-width: 5000px) {
+                                 main {
+                                     @include mainFlex;
+                                     @include aboveMobileFlex;
+                                     @include taskMainCardsAll
+                                 }
+                                 #mascotButton {
+                                     transform: scale(1.4);
+                                 }
+                             }
+                             
+                             @media all and (min-width: 801px) and (max-width: 1200px) {
+                                 main {
+                                     @include mainFlex;
+                                     @include aboveMobileFlex;
+                                     @include taskMainCardsAll
+                                 }
+                                 #mascotButton {
+                                     transform: scale(1.3);
+                                 }
+                             }
+                             
+                             @media all and (min-width: 651px) and (max-width: 800px) {
+                                 main {
+                                     @include mainFlex;
+                                     @include aboveMobileFlex;
+                                     @include taskMainCardsAll
+                                 }
+                                 #mascotButton {
+                                     transform: scale(1.2);
+                                 }
+                             }
+                             
+                             //  @media all and (min-width: 361px) and (max-width: 651px) {
+                             @media all and (max-width: 651px) {
+                                 #pageHeader {
+                                     @include mobileHeader
+                                 }
+                                 main {
+                                     @include mainFlex;
+                                     flex-direction: column;
+                                     @include taskMainCardsAll;
+                                     justify-content: center;
+                                 }
+                                 #mascotButton {
+                                     transform: scale(1.2);
+                                 }
+                             }
+                             
+                             @media all and (min-width: 0px) and (max-width: 376px) {
+                                 body header h1 {
+                                     font-size: 1.2em;
+                                 }
+                                 #mascotButton {
+                                     transform: scale(.9);
+                                 }
+                                 #taskModal article {
+                                     width: 95%;
+                                 }
+                             }
+                             
+                             body {
+                                 background-image: radial-gradient(circle at 100% 150%, $backgroundPatternColor1 24%, $backgroundPatternColor2 24%, $backgroundPatternColor2 28%, $backgroundPatternColor1 28%, $backgroundPatternColor1 36%, $backgroundPatternColor2 36%, $backgroundPatternColor2 40%, transparent 40%, transparent), radial-gradient(circle at 0 150%, $backgroundPatternColor1 24%, $backgroundPatternColor2 24%, $backgroundPatternColor2 28%, $backgroundPatternColor1 28%, $backgroundPatternColor1 36%, $backgroundPatternColor2 36%, $backgroundPatternColor2 40%, transparent 40%, transparent), radial-gradient(circle at 50% 100%, $backgroundPatternColor2 10%, $backgroundPatternColor1 10%, $backgroundPatternColor1 23%, $backgroundPatternColor2 23%, $backgroundPatternColor2 30%, $backgroundPatternColor1 30%, $backgroundPatternColor1 43%, $backgroundPatternColor2 43%, $backgroundPatternColor2 50%, $backgroundPatternColor1 50%, $backgroundPatternColor1 63%, $backgroundPatternColor2 63%, $backgroundPatternColor2 71%, transparent 71%, transparent), radial-gradient(circle at 100% 50%, $backgroundPatternColor2 5%, $backgroundPatternColor1 5%, $backgroundPatternColor1 15%, $backgroundPatternColor2 15%, $backgroundPatternColor2 20%, $backgroundPatternColor1 20%, $backgroundPatternColor1 29%, $backgroundPatternColor2 29%, $backgroundPatternColor2 34%, $backgroundPatternColor1 34%, $backgroundPatternColor1 44%, $backgroundPatternColor2 44%, $backgroundPatternColor2 49%, transparent 49%, transparent), radial-gradient(circle at 0 50%, $backgroundPatternColor2 5%, $backgroundPatternColor1 5%, $backgroundPatternColor1 15%, $backgroundPatternColor2 15%, $backgroundPatternColor2 20%, $backgroundPatternColor1 20%, $backgroundPatternColor1 29%, $backgroundPatternColor2 29%, $backgroundPatternColor2 34%, $backgroundPatternColor1 34%, $backgroundPatternColor1 44%, $backgroundPatternColor2 44%, $backgroundPatternColor2 49%, transparent 49%, transparent);
+                                 background-size: 5em 2.5em;
+                             }

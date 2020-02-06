@@ -1,0 +1,66 @@
+git branch `new branch name`
+git branch -d  – creates a new branch
+git branch -a – list all branches (local and remote)
+git branch -d `branch name` – delete the named branch 
+git merge `branch merging from` – merge named branch to current branch
+git reset --hard HEAD~1
+git reset --soft HEAD~1
+git push origin – 'adds' file changes to online remote git repository (origin is an optional name for a remote repo)
+git remote -v – checks remote 'origin' (url)
+git remote add origin `url/to/your/fork`
+git fetch – like add ?
+git pull – like push but takes from the remote
+git stash – so you can change your working dir when you have changes that are dissimilar (uncommitted / forgot to change directories) 
+git stash apply – after you go to the new dir you can add these changes
+
+feature branch workflow
+
+https://github.com/NH3R717/NH3R717.github.io
+
+npm init – sets up npm within a project
+npm -D gulp – installs (developer) gulp dependency
+
+*dev branch – "working branch, pre release and updates (post prerelease)"
+
+*master branch – "published app functioning branch"
+
+*readme-update – "merge instruction purpose"
+
+Week 1 Notes
+
+/* ISSUES & Q's:
+
+• Over all this class is pretty easy to follow, more so than other classes but,...
+
+• Not really understanding what happens when a pull request is made (the actual action on gethub)
+
+• No background context info on what is happening with sass
+a. not clear on how/where to write the CSS 'code' (in the main.css or main.scss file)
+b. what's going on with the sass code, (a brief explanation of this from being written in the main.scss file to how that code is compiled and where it ends up in the web page)
+
+• for default styles rest what is preferred `*` or the tag list? 
+
+*/
+
+320px and 1200px
+
+don't forget to run CSS through validator
+
+sass variables – 'top of code'
+
+mixin – code block for same css properties with different values
+
+nesting – can 'nest' selectors within each other (nest directly with out parent/child selectors)
+
+extending - overwrites stated property value with new value
+
+
+[x] mobile first
+[x] variables
+[x] mixin
+[x] nesting
+[x] extend/placeholder
+[x] sub-folders (@import)
+[x] flexbox
+[x] media queries (@media)
+[x] viewpoint meta tag

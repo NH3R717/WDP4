@@ -1,0 +1,333 @@
+<!-- DOCTYPE – denotes html type (html5 = html) -->
+
+<!DOCTYPE html>
+
+<!-- html – html root tag -->
+
+<!-- lang="" – denotes primary language page content is in (useful for search engines)  -->
+
+<html lang="en">
+
+<!-- head – metadata for the site -->
+
+<head>
+
+    <!-- Unicode Transformation Format – 8 represent any character in the Unicode standard. UTF-8 is backwards compatible with ASCII. (no closing tag) -->
+
+    <meta charset="UTF-8">
+
+    <!-- Script element placed within the head tag forcing JS data to load before html (this may prevent the page from loading any information in the even that JS data does not load) -->
+
+    <script src="js/content.js"></script>
+
+    <!-- Title – displays in a browser tab and the default save name for bookmarks -->
+
+    <title>Hikers Guide – Home</title>
+
+    <!-- CSS references – external -->
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<!-- body – what renders in the webpage -->
+
+<body id="index">
+
+    <!-- header – reusable header site content -->
+
+    <header id="headerLocations">
+
+        <!-- heading 1 (logo) inclusion of logo as and html element -->
+
+        <h1>
+            <a href="index.html"><img src="images/hikersGuide.png" alt="Hikers Guide Logo"></a>
+        </h1>
+
+        <!-- navigation – primary page navigation element -->
+
+        <nav>
+
+            <!-- unordered list – list of links to other site pages used when contained element order is has no consequence on page functionality  -->
+
+            <ul>
+
+                <!-- list – child element of ul above (also ol or menu) -->
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Recent Events – with image slider/carousel -->
+
+    <section id="locations">
+
+        <article id="imageSlider">
+            <h3>City, ST</h3>
+            <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, voluptatem.
+            </p>
+        </article>
+
+        <ul>
+            <li>
+                <button>Back</button>
+            </li>
+            <li>
+                <button>Slide 1</button>
+            </li>
+            <li>
+                <button>Slide 2</button>
+            </li>
+            <li>
+                <button>Slide 3</button>
+            </li>
+            <li>
+                <button>Slide 4</button>
+            </li>
+            <li>
+                <button>Slide 5</button>
+            </li>
+            <li>
+                <button>Next</button>
+            </li>
+        </ul>
+
+    </section>
+
+    <!-- Recent Blog Post -->
+
+    <section id="posts">
+
+        <h2>Recent Post</h2>
+
+        <div class="grid">
+
+            <article>
+                <img src="images/hikers1001.jpg" width="550" height="400" alt="Hikers Guide User">
+                <h3>Amet consectetur adipisicing elit.</h3>
+                <h4>City, ST</h4>
+                <p>Dolor sit amet consectetur, adipisicing elit. Maiores aliquam quisquam voluptatibus perferendis, molestias enim.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="images/hikers1001.jpg" width="550" height="400" alt="Hikers Guide User">
+                <h3>Amet consectetur adipisicing elit.</h3>
+                <h4>City, ST</h4>
+                <p>Dolor sit amet consectetur, adipisicing elit. Maiores aliquam quisquam voluptatibus perferendis, molestias enim.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="images/hikers1001.jpg" width="550" height="400" alt="Hikers Guide User">
+                <h3>Amet consectetur adipisicing elit.</h3>
+                <h4>City, ST</h4>
+                <p>Dolor sit amet consectetur, adipisicing elit. Maiores aliquam quisquam voluptatibus perferendis, molestias enim.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="images/hikers1001.jpg" width="550" height="400" alt="Hikers Guide User">
+                <h3>Amet consectetur adipisicing elit.</h3>
+                <h4>City, ST</h4>
+                <p>Dolor sit amet consectetur, adipisicing elit. Maiores aliquam quisquam voluptatibus perferendis, molestias enim.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="images/hikers1001.jpg" width="550" height="400" alt="Hikers Guide User">
+                <h3>Amet consectetur adipisicing elit.</h3>
+                <h4>City, ST</h4>
+                <p>Dolor sit amet consectetur, adipisicing elit. Maiores aliquam quisquam voluptatibus perferendis, molestias enim.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="images/hikers1001.jpg" width="550" height="400" alt="Hikers Guide User">
+                <h3>Amet consectetur adipisicing elit.</h3>
+                <h4>City, ST</h4>
+                <p>Dolor sit amet consectetur, adipisicing elit. Maiores aliquam quisquam voluptatibus perferendis, molestias enim.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+        </div>
+
+        <button type="button">View More</button>
+
+    </section>
+
+    <!-- Testimonial / Sing Up -->
+
+    <section id="actionCall">
+
+        <h2>Join the Adventure</h2>
+        <blockquote>
+            Sit amet consectetur adipisicing elit. Quis illum, laboriosam voluptate sit error similique tempora eos! Inventore, doloribus magni!
+        </blockquote>
+
+        <p><em>- Author | City, ST</em></p>
+
+        <h2>The biggest adventure of your life is right around the corner.</h2>
+        <button type="button">Sign Up Now!</button>
+
+    </section>
+
+    <!-- Upcoming Events -->
+
+    <div class="eventsHikersAbout">
+
+        <Section id="events">
+
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>
+                    <time>2019-11</time>
+
+                    <h4>Non quod dolorem.</h4>
+
+                    <p>Laudantium placeat mollitia assumenda facilis aspernatur labore exercitationem quis iusto.</p>
+
+                </li>
+
+                <li>
+                    <time>2019-11</time>
+
+                    <h4>Non quod dolorem.</h4>
+
+                    <p>Laudantium placeat mollitia assumenda facilis aspernatur labore exercitationem quis iusto.</p>
+
+                </li>
+
+                <li>
+                    <time>2019-11</time>
+
+                    <h4>Non quod dolorem.</h4>
+
+                    <p>Laudantium placeat mollitia assumenda facilis aspernatur labore exercitationem quis iusto.</p>
+
+                </li>
+            </ul>
+
+        </Section>
+
+        <!-- New Hikers -->
+
+        <section id="hikers">
+
+            <h3>New Hikers</h3>
+            <ul>
+                <li>
+                    <img src="images/user.png" width="300" height="300" alt="Hikers Guide User">
+                    <h4>Jam, Jimmy</h4>
+                    <p>Somewhere, ST</p>
+                </li>
+                <li>
+                    <img src="images/user.png" width="300" height="300" alt="Hikers Guide User">
+                    <h4>Jam, Jimmy</h4>
+                    <p>Somewhere, ST</p>
+                </li>
+                <li>
+                    <img src="images/user.png" width="300" height="300" alt="Hikers Guide User">
+                    <h4>Jam, Jimmy</h4>
+                    <p>Somewhere, ST</p>
+                </li>
+                <li>
+                    <img src="images/user.png" width="300" height="300" alt="Hikers Guide User">
+                    <h4>Jam, Jimmy</h4>
+                    <p>Somewhere, ST</p>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- About -->
+
+
+        <section id="about">
+
+            <h3>About</h3>
+            <h4>Deserunt temporibus optio neque eaque.</h4>
+            <p>Voluptatem nam, magni explicabo incidunt temporibus porro. Quos quod sint officiis minima dignissimos! Vero, tenetur unde blanditiis repellendus dolorum cupiditate ullam inventore ipsa, labore laborum saepe asperiores non ipsam esse, nesciunt
+                repudiandae.
+                <br>Illo, inventore repellendus, voluptate esse accusantium laudantium debitis alias aut possimus veniam minus vitae, atque dolore quasi nesciunt magnam rem? Nam natus ipsam repellendus culpa magnam sequi expedita omnis eum possimus ratione!</p>
+
+
+
+        </section>
+
+    </div>
+    <!-- footer – reusable site footer content -->
+
+
+    <footer>
+
+        <!-- links – legal/info -->
+
+        <ul>
+            <li>
+                <p>&copy; Hikers Guide, INC</p>
+            </li>
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Terms</a>
+            </li>
+            <li>
+                <a href="#">Newsletter</a>
+            </li>
+        </ul>
+
+        <!-- links – social media -->
+
+        <section id="socialMedia">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com"><img src="images/youtube.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="https://google.com"><img src="images/google.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+                </li>
+            </ul>
+        </section>
+
+    </footer>
+
+    <!-- loads HTML 1st ensuring javascript injection successful -->
+
+    <script src="js/content.js"></script>
+
+</body>
+
+</html>

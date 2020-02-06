@@ -1,0 +1,31 @@
+// nested main content
+@mixin taskMainCardsAll {
+    section {
+        @include taskDivision ();
+        header {
+            @include taskHeader;
+        }
+    }
+    article {
+        @include taskCard;
+        h3 {
+            font-weight: bold;
+            font-size: 1.6em;
+            color: $taskHeadingFontColor;
+            padding: 0 0 .8em 0;
+        }
+        p {
+            padding: 0 0 .4em .4em;
+            font-size: 1.2em;
+            color: $taskParagraphFontColor;
+        }
+        time {
+            display: block;
+            text-align: end;
+            font-family: "Andrographis";
+            color: $buttonTimeColor;
+            font-size: 1.8em;
+            padding-top: .2em;
+        }
+    }
+}

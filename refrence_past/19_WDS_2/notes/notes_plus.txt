@@ -1,0 +1,84 @@
+https://stackoverflow.com/questions/22924633/gitignore-is-not-ignoring-directories
+
+Since the node_modules directory is already tracked as part of the repository, the .gitignore rule will not apply to it.
+
+You need to untrack the directory from git using
+
+git rm -r --cached node_modules
+git commit -m "removing node_modules"
+
+You can run the above 2 in git-bash.
+
+After this, the .gitignore rule will ignore the directory away.
+
+Note that this will remove the directory node_modules from your other repos once you pull the changes in. Only the original repo where you made that commit will still have the node_modules folder there.
+
+
+    <!-- Task Input Modal -->
+
+    <!-- <form hidden class="modal" id="taskModal">
+
+        <article class="modal-content" aria-label="task input modal window">
+
+            <header>
+                <button class="modalClose" aria-label="task modal close button">&times;</button>
+                <h3>Task Input</h3>
+            </header>
+
+            <section class="modal-body">
+                <h4>Add task here.</h4>
+
+                <div id="titleInput">
+                    <label for="taskTitle">Title</label>
+                    <input type="text" id=taskTitle aria-label="task title input field" required minlength="4" maxlength="16">
+                </div>
+                <div id="descriptionInput">
+                    <label for="description">Description</label> // update element to textarea
+                    <textarea type="text" id=description aria-label="task description input field" required minlength="4" maxlength="220"></textarea>
+                </div>
+                <div id="dateInputAndBtn">
+                    <label for="dueDate">Date</label>
+                    <input type="date" id="dueDate" aria-label="task dude date picker">
+                    <input type="submit" value="Submit" class="modalSubmit" aria-label="add new task">
+                </div>
+
+            </section>
+        </article>
+
+    </form> -->
+
+
+
+        <!-- Task Input Modal -->
+
+    <form hidden class="modal" id="taskModal">
+
+        <article class="modal-content" aria-label="task input modal window">
+
+            <header>
+                <button class="modalClose" aria-label="task modal close button">&times;</button>
+                <h3>Task Input</h3>
+            </header>
+
+            <section class="modal-body">
+                <h4>Add task here.</h4>
+                <div id=inputContainer>
+                    <div id=taskModalLabels>
+                        <label for="taskTitle">Title</label>
+                        <label for="description">Description</label>
+                    </div>
+
+                    <div id=taskModalFields>
+                        <input type="text" id=taskTitle aria-label="task title input field" required minlength="4" maxlength="16">
+                        <textarea type="text" id=description aria-label="task description input field" required minlength="4" maxlength="220"></textarea>
+                    </div>
+                    <div id="dateInputAndBtn">
+                        <label for="dueDate">Date</label>
+                        <input type="date" id="dueDate" aria-label="task dude date picker">
+                        <input type="submit" value="Submit" class="modalSubmit" aria-label="add new task">
+                    </div>
+
+            </section>
+        </article>
+
+    </form>

@@ -1,0 +1,140 @@
+/* 
+   • Umholtz, Tommy
+   • Full Sail University
+   • Web Design and Development, Bachelors of Science – Online
+   • Web Design Standards 2 (WDSII)
+   
+   */
+
+Assignment
+•
+
+[x] css validation – initial issue with transform:scale
+[x] html validation
+
+[x] accessibility
+    [x] ARIA attributes and landmark roles – included
+    [] css techniques – consider adding next week
+    [x] chrome accessibility audit – 100%
+    [x] keyboard nav – works but needs a solution to improve tabbing order
+    [x] screen reader (voiceover on elements)
+    [x] set tab order – setting tab order to on ("insertAdjacentHTML" from problematic)
+
+[x] form validation
+    [x] validate inputs – 
+        [x] html form validation for all form inputs – prevents form submission unless specific string length is met
+        • error message and red input field border shows on invalid form submission prompting user to correct their entry
+        • upon meeting valid form entry requirements the from data can be submitted to the glitch API/Pokemon and updated in on the browser.
+        [o] css validation rules – did not implement
+        [o] javacript validation – no necessary added functionality would be included by implementing this
+
+[x] user customization
+    [x] create a way for users to customize some of the styling – user can update and image element (to display an image of a Pokèmon) located within the main page footer by clicking the "Mascot" button located within the header of the page. Upon clicking on the header button a modal form will display allowing them to enter and submit the name of a Pokemon character of there choosing.
+    [x] The users Pokemon "Mascot" selection is entered/saved into the browsers local storage which is called on when the page is reload re-displaying the users previous Pokemon selection.
+
+Video Review
+•
+    • main card div 'serve no purpose'
+    • inline CSS styling (footer) – send it to the CSS document
+    • update the typography
+    • box width uneven (check and remove unused css rules) – 
+        remove height – auto
+        flex direction – row 
+        width: cal(100%/3) – I tried that earlier (was missing the %) – flex: 1
+        flex is shorthand for (flex-grow, flex-shrink, flex-basis) – undo flex: auto (flex: 1 works)
+    Javascript
+        • api u/i data population
+            switch # To Do id to the parent tag (but could use it if specific styling to div)
+
+To Do
+•
+    [x] add button for each section to display a form in that section. Submit button for each form submits info to corresponding section
+    [x] accessibility audit – 100%
+    [x] form validation
+    [x] add user customization to page to include web storage usage
+    [x] css hover buttons turn green and 'puff-up' (scale)
+    [x] refactor section div wrapper (?)
+    • moved to innerHTML
+    • absolute position time tag right adjacent to task title
+    // Next Week
+    [] spelling tag/property
+    [] make close button selectable when focused
+    [] switch form from innerHTML to modal or find way to include in propr tab order
+    [] make screen reader operational
+    [] add CSS form validation 
+    [] change pointer during button hover
+    [] make recognizable via tab input key press
+    [] make general accessibility improvements
+
+
+    [x] improve CSS
+        [x] main head text
+        [x] main head pattern
+        [x] matching card & task background color – added css pattern
+        [x] card & task text
+        [x] button style
+        [x] colum 1 does ont keep an equal width with 2 & 3 – flex: 1;
+        [x] footer position & content (stick to bottom)
+    [x] add u/i customization
+    • allow user to chose a page mascot from pokemon api
+    – or
+    • add field to webpage that lets the user input their location
+    api data populates on a section of the webpage (footer or top right)
+    [x] prevent all box heights from expanding at the same rate in row layout – – height: min-content;
+
+
+A11y
+• screen reader
+    • mac = voice over
+       navigation
+       control+alt+l/r arrow (through html page elements)
+       control+alt+h (through html 'h' elements)
+       control+alt+space (select)
+       control (stops v/o)
+       control+alt+u (a11y audible menu)
+
+       wikipedia for a11y familiarity
+
+    • built-in keyboard accessability
+    • Wai-Aria
+        role="form" "tree" "checkbox" "alert" etc.
+
+CSS 
+    • "CSS declaration" (or rule)
+
+API
+    • "middle-man" that goes both way get/push
+    • Types –  web-based system, operating system, database system, computer hardware, or software library
+    • access services outside of your code
+
+• Seems fetch is a method() with 'built-in" data objects that allow applications to get and post data and it is also an API – basically a method that is an API that's purpose is receiving and sending data objects. This can be machine internal (game to graphics card), but more popularly the term is used for the thing interacts with data on remote network servers.
+
+It seems like normally when people refer to API they are the web/external ones, but it could be a link between a graphics card driver and a game engine (e.g. OpenGL).
+
+JavaScrip has a lot of 'built-in" methods/objects (a method is an object) like an "internal library", and this is one of them (actually no it isn't).... Actually it seems fetch is not necessary internal like these – https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+
+fetch is a web API which seems more like (something included) an external library – https://developer.mozilla.org/en-US/docs/Web/API
+Fetch
+
+
+Josh,
+
+I just finished watching your review video. I want to mention what I was having trouble with last week.
+
+So far the issues I've had that I haven't been clear with in in this class are the following:
+
+wk 1 
+ • The pull request – wasn't really sure what was suppose to happen during that process and it didn't seem like something I wanted to experiment with – yes I could have set up a similar scenario from another git account but a quick demo would have helped
+ • SASS – Not clear on how the SASS/Gulp process worked. It's wasn't clear to me where the SASS code would be written and what it was suppose to do. The SASS video didn't really detail that whole process (only writing the SASS code), a quick overview of this process as a whole would have clarified the SASS usage
+
+ Wk2
+• The use of the API (for this project) in general  – I've used APIs before in previous classes but was unclear that the API use for this project would 'inject content to our page and also be updatable' I'd only been familiar with APIs providing read only data, not being changeable.
+A basic explanation of this would have been very helpful to me.
+
+As mentioned to you before I work with factory middle and upper management clients in East Asia as a trainer. I often have to make it a point to realize that basic (cultural) knowledge that I have as American is not something they necessarily have. So something that is second nature to me may not be to them. The noted issues here are coming from that experience. 
+
+As for this week I feel I am not confused on any of the requirements. I'll be working on my project today and for the rest of the week and try to implement solutions first before I reach out.
+
+My project as submitted does display a form when the "Add Task" button is clicked in the ToDo window (in both Chrome and FF), I am not sure why it didn't for you, maybe you could look into this and adjust my grade if that would make a difference. I made a screen capture video displaying this – 
+
+

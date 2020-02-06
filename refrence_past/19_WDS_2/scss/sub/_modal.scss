@@ -1,0 +1,125 @@
+                // modals
+                // task modal
+                //  #titleinput {}
+                //  #descriptionInput {}
+                //  #dateInputAndButton {}
+                #taksModle .modalBody {
+                    display: inline-flex;
+                }
+                
+                #inputContainer {
+                    display: inline-flex;
+                    #taskModalLabels {
+                        display: flex;
+                        flex-direction: column;
+                        font-size: 1.6em;
+                        padding: 0 0 0 2em;
+                    }
+                    #taskModalFields {
+                        display: flex;
+                        flex-direction: column;
+                        font-size: 1.6em;
+                        padding: 3 0 0 2em;
+                    }
+                }
+                
+                #dateInputAndBtn {
+                    // display: flex;
+                    // flex-direction: row;
+                    font-size: 1.6em;
+                    padding: 0 0 0 2em;
+                }
+                
+                // modal class
+                .modal {
+                    display: none;
+                    position: fixed;
+                    z-index: 1;
+                    padding-top: 10em;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.4);
+                    article {
+                        position: relative;
+                        margin: auto;
+                        padding: 0;
+                        border: .2em solid $borderColor;
+                        width: 80%;
+                        box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.555);
+                        animation-name: animatetop;
+                        animation-duration: 0.5s;
+                        header {
+                            .modalClose {
+                                color: $headerFontColor;
+                                margin-top: -.15em;
+                                border: none;
+                                float: right;
+                                font-size: 28px;
+                                font-weight: bold;
+                            }
+                            h3 {
+                                font-weight: bold;
+                                font-size: 1.6em;
+                                text-shadow: $dropShadow;
+                                color: $headerFontColor;
+                                padding: .2em .4em;
+                                background-color: $backgroundPatternColor1;
+                                border-bottom: .1em solid $borderColor;
+                            }
+                        }
+                        section {
+                            padding: .2em 2em .8em 1.4em;
+                            background-color: $backgroundPatternColor2;
+                            h4 {
+                                padding: .8em 0 .8em .4em;
+                                font-size: 1.2em;
+                                text-shadow: $dropShadow;
+                                color: $taskParagraphFontColor;
+                            }
+                            #mascotModal div {
+                                display: flex;
+                                justify-content: space-between;
+                                input {
+                                    margin-left: 1em;
+                                    height: 1.5em;
+                                    margin-top: 0.9em;
+                                }
+                                .modalSubmitBtn {
+                                    font-size: 3em;
+                                    margin-bottom: .2em;
+                                     :hover,
+                                     :focus {
+                                        color: #000;
+                                        text-decoration: none;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                #pokeSubmitBtn {
+                    font-size: 3em;
+                    margin-bottom: .2em;
+                     :hover,
+                     :focus {
+                        color: #000;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+                
+                // modal animations
+                @keyframes animatetop {
+                    from {
+                        top: -30em;
+                        opacity: 0
+                    }
+                    to {
+                        top: 0;
+                        opacity: 1
+                    }
+                }

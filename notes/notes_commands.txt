@@ -1,0 +1,47 @@
+/* 
+   • Umholtz, Tommy
+   • Full Sail University
+   • Web Design and Development, Bachelors of Science – Online
+   
+   */
+
+Node
+
+• Node NPM set-up
+
+npm install node
+
+npm init
+
+npm install -D gulp
+
+npm install -D gulp-sass (not necessary – large file)
+
+git init
+
+touch .gitignore
+
+• cloned project re-init Node
+
+npm install
+
+
+GIT
+
+git branch `new branch name`
+git branch -a – list all branches (local and remote)
+git branch -d `branch name` – delete the named branch 
+git merge `branch merging from` – merge named branch to current branch
+git reset --hard HEAD~1
+git reset --soft HEAD~1
+git push origin – 'adds' file changes to online remote git repository (origin is an optional name for a remote repo)
+git remote -v – checks remote 'origin' (url)
+git remote add origin `url/to/your/fork`
+git fetch – like add ?
+git pull – like push but takes from the remote
+git stash – so you can change your working dir when you have changes that are dissimilar (uncommitted / forgot to change directories) 
+git stash apply – after you go to the new dir you can add these changes
+• files not recognized by .gitignore
+git rm -r --cached node_modules
+git commit -m "removing node_modules"
+• initial remote push
