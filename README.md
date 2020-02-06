@@ -1,4 +1,4 @@
-# DWS2 Kanban Board
+# WDPIV Static Web Page
 
 /* 
    • Umholtz, Tommy
