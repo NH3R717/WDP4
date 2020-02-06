@@ -5,7 +5,7 @@
    
    */
 
-Node
+Node/Git
 
 • Node NPM set-up
 
@@ -17,16 +17,30 @@ npm install -D gulp
 
 npm install -D gulp-sass (not necessary – large file)
 
-git init
-
-touch .gitignore
-
-• cloned project re-init Node
+* cloned project re-init Node
 
 npm install
 
 
-GIT
+• Git set-up
+
+git init
+
+touch .gitignore
+
+* add node_modules to .gitignore
+
+git branch dev
+
+git checkout dev
+
+git commit -m
+
+git remote add origin `url/to/your/fork`
+
+git push
+
+GIT Commands
 
 git branch `new branch name`
 git branch -a – list all branches (local and remote)
@@ -44,4 +58,3 @@ git stash apply – after you go to the new dir you can add these changes
 • files not recognized by .gitignore
 git rm -r --cached node_modules
 git commit -m "removing node_modules"
-• initial remote push
