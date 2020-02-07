@@ -1,0 +1,120 @@
+/* 
+    • Umholtz, Tommy
+    • Full Sail University
+    • Web Design and Development, Bachelors of Science – Online
+    • Web Design Portfolio 4 (WDPIV)
+    
+    */
+
+To Do
+
+[x] domain acquisition – research
+
+[x] hosting - research
+
+[x] wireframe – research
+
+[] Adobe Illustrator  alternative – Affinity Designer
+
+[x] compile stand up report
+
+As a US Navy veteran working as a photographer/propulsion systems engineer and as a US Merchant Marine specializing in refrigeration systems engineering I have spent most of my adult life working, living and traveling all over the world. Post these two working situations for the last 7 years I have been traveling and living in East Asia, primarily China (PRC) & Hong Kong, as an engineering training consultant and am currently spending my time studying at Full Sail online in Taiwan (which is not China).
+
+My primary desired outcome from studying with Full Sail is gain the knowledge in helping companies to develop their app based training needs with cutting edge skills in web app development. Working with these companies to help them develop their app based training platforms previously I had noticed their general lacking in implementation of modern app based solutions and realized I could fill a very valuable niche if I advanced my abilities in app development and design.
+
+With a ski trip planned to Korea next week I am working on front loading my assignment requirements as much as possible. I feel a lot of the topics covered this month I already have basic knowledge in (I have purchased and own .com domains from name.com in the past and also currently run 2 VPSs, one on digitalocean.com and vultr.com) being ahead of entry level knowledge on these subjects will allow me to easily learn and implement more advanced related solutions for them this month. I've opted to keep my task list in checkbox form on a text document in my project folder (included in this post). I find this to be a simple and elegant solution as it is always available in VS Code when I have it open and I don't have to add another app to my work flow. I keep meaning to research if there is a task list extension available in VS Code but haven't yet (probably do that in the next few minutes).
+
+As for that actual content of this months project I have decided to produce a single page static site for my good friend's restaurant located here in Taiwan. Visiting his restaurant I am impressed into the effort put in to his product branding and its location interior styling (especially when compared to similar tier restaurants), but this restaurant's web presents is non existent, save for a Facebook page. Researching restaurant webpage designs I've found a link (https://webdesignledger.com/restaurant-websites-to-inspire-you/) listing various restaurant pages which has been a good starting point to for giving me inspiration to my page design.
+
+Another issue with my friends business that I've noticed is his use of gmail as a professional business email. I currently use Proton Mail to host my domain email but feel like the services offered by it are excessive for my friends needs and thus he would be incurring unnecessary cost by using it. https://mailbox.org offers services and pricing (€1) more inline with my friends needs so I will be looking to what it takes to set up a custom domain account for him with that.
+
+[x] post stand up report
+
+[x] reply to peer stand up post
+
+•
+Kevin,
+
+Your mention of Figma had me look into it spend some extra time checking into it. I've been using Adobe products for a while and my go to app for designing the wire frames for this month's project was going to be illustrator. But actually I been looking for an alternative to AI, even though FS provides students with education licenses for Adobe CC I really have no use for most of the features it provides and find its U/X cumbersome overall. So my research into AI alternatives on Mac lead me to Affinity Designer. I was apprehensive about switching before but after trying it out I haven't found a feature I need it doesn't have that AI does and over it's a much more focused and user friendly product. I look forward to using it for my future vector design needs. – Tommy
+
+•
+Holly,
+
+Checking you link on OpenAPI link I am curious as to how/if you plan on implementing custom APIs into your project. Your response might give me some idea as to whether adding something similar to my project this month or in future projects might be beneficial, thanks. – Tommy
+
+[x] develop static webpage concept
+
+• decide the purpose and type of website that will be the subject of this months final project
+• review similar websites and take notes on useful design elements
+ • https://webdesignledger.com/restaurant-websites-to-inspire-you/
+• decide the general functionality and layout of the project site and produce wireframes based on that concept
+[] produce project wireframes
+[] submit project wireframes in .pdf format
+[] update readme.md
+
+
+Web Project
+
+Purpose
+
+A static webpage showcasing a specific restaurant's brand, products offerings and pricing and dining experience, social media presence (Facebook, Line), contact information (phone, Line, Facebook, email) and restaurant location
+
+• use case – 
+    • b2c potential or current customers can view this page to get a general feel of the restaurant's product offering and dining experience as well as view the restaurant's business hours and holiday closings
+    • b2b potential business customers can view product offerings, scale purchase options, view contact options to include: Line Messenger, FB Messenger, phone and email
+    • primary viewing experience is anticipated to be via mobile with design focusing on this (mobile first)
+
+• primary design features – 
+    • header (stuck)
+        X branding text/button with auto scroll to the page top
+        • menu drop-down page jump select (dining/story, menu items, business hours/holidays, location (jpg map and map link), contact/social media)
+        • Language Selection button (at least English and Chinese (possible Japanese and Korean))
+    • main – Mobile
+        • branding image
+        • story text
+        • menu items
+        • hours
+        • location
+    • main – Web
+        • branding image/story text (flex column/row)
+        • menu items (flex column/row)
+        • hours/location (flex column/row)
+    footer (stuck)
+        • contact (icons) – phone, email, Line, Facebook
+        
+Mobile Small • 320px – 413px  
+Mobile Large •414px – 767 px  
+Desktop/Tablet 768+px
+Modal Large 310px
+Modal Small 500px
+
+Competition
+
+• https://webdesignledger.com/restaurant-websites-to-inspire-you/
+
+Estimated Cost
+
+    • domain – 
+        • wagui.tw ($30 initial purchase)
+    • email hosting – 
+        • mailbox.org (1€ per month)
+    • vps hosting – ($5 per month)
+
+
+Notes
+
+• MEAN stack - mongoDB, Express, Angular, Node.js
+• MEVN stack - mongoDB, Express, Vue, Node.js
+• MEN stack - mongoDB, Express, (Vanilla JS) Node.js
+• Apple – HIG / Google – Material Design
+
+Icons
+    • hamburger icon basic – Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    • hamburger icon round – <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    • Facebook – <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    • Line – <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    • email - <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    • phone – <div>Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    • close – <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    • close thin –  <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    • loction – Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
