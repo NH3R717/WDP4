@@ -110,10 +110,17 @@ Web Project – Analysis Statement
         • vps hosting –
                 vultur.com ($5 per month)                   
 
-
-
-
 Notes
+
+ Mobile Small
+• 320px – 413px
+ Mobile Large
+• 414px – 767 px
+Desktop/Tablet
+• 768+px
+Modal Large 310px
+Modal Small 500px
+
 
 • MEAN stack - mongoDB, Express, Angular, Node.js
 • MEVN stack - mongoDB, Express, Vue, Node.js
@@ -130,3 +137,6 @@ Icons
     • close – <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     • close thin –  <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     • loction – Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Background
+    • Brick – <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
