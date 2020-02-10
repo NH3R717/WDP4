@@ -53,52 +53,64 @@ Checking you link on OpenAPI link I am curious as to how/if you plan on implemen
 [] update readme.md
 
 
-Web Project
+/* 
+    • Umholtz, Tommy
+    • Full Sail University
+    • Web Design and Development, Bachelors of Science – Online
+    • Web Design Portfolio 4 (WDPIV)
+    
+*/
 
-Purpose
+Web Project – Analysis Statement
 
-A static webpage showcasing a specific restaurant's brand, products offerings and pricing and dining experience, social media presence (Facebook, Line), contact information (phone, Line, Facebook, email) and restaurant location
+    Purpose
 
-• use case – 
-    • b2c potential or current customers can view this page to get a general feel of the restaurant's product offering and dining experience as well as view the restaurant's business hours and holiday closings
-    • b2b potential business customers can view product offerings, scale purchase options, view contact options to include: Line Messenger, FB Messenger, phone and email
-    • primary viewing experience is anticipated to be via mobile with design focusing on this (mobile first)
+        A static webpage showcasing a specific restaurant's brand, products offerings and pricing and dining experience, social media presence (Facebook, Line), contact information (phone, Line, Facebook, email) and restaurant location
 
-• primary design features – 
-    • header (stuck)
-        X branding text/button with auto scroll to the page top
-        • menu drop-down page jump select (dining/story, menu items, business hours/holidays, location (jpg map and map link), contact/social media)
-        • Language Selection button (at least English and Chinese (possible Japanese and Korean))
-    • main – Mobile
-        • branding image
-        • story text
-        • menu items
-        • hours
-        • location
-    • main – Web
-        • branding image/story text (flex column/row)
-        • menu items (flex column/row)
-        • hours/location (flex column/row)
-    footer (stuck)
-        • contact (icons) – phone, email, Line, Facebook
-        
-Mobile Small • 320px – 413px  
-Mobile Large •414px – 767 px  
-Desktop/Tablet  768+px
-Modal Large 310px
-Modal Small 500px
+        • use case – 
+            • b2c potential or current customers can view this page to get a general feel of the restaurant's product offering and dining experience as well as view the restaurant's business hours and holiday closings
+            • b2b potential business customers can view product offerings and contact options to include: Line Messenger, FB Messenger, phone and email
+            • primary viewing experience is anticipated to be via mobile with design focusing on this (mobile first)
 
-Competition
+        • primary design features – 
 
-• https://webdesignledger.com/restaurant-websites-to-inspire-you/
+            • header (fixed) – mobile
+                • menu drop-down navigation
+                • language selection button 
+            • header (fixed) – web
+                • menu navigation
+                • language selection button 
+            • main – mobile
+                • branding image
+                • story text
+                • menu items
+                • hours
+                • location
+            • main – web
+                • branding image/story text (flex column/row)
+                • menu items (flex column/row)
+                • hours/location (flex column/row)
+            footer (fixed)
+                • contact (icons) – phone, email, Line, Facebook
 
-Estimated Cost
 
-    • domain – 
-        • waigui.tw ($30 initial purchase)
-    • email hosting – 
-        • mailbox.org (1€ per month)
-    • vps hosting – ($5 per month)
+
+
+
+    Competition
+
+        • https://webdesignledger.com/restaurant-websites-to-inspire-you/
+
+    Estimated Cost
+
+        • domain – 
+                waigui.tw ($30 initial purchase 1yr – name.com)
+        • email hosting –
+                business@waigui.tw (1€ per month – mailbox.org)
+        • vps hosting –
+                vultur.com ($5 per month)                   
+
+
 
 
 Notes
