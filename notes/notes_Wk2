@@ -73,3 +73,12 @@ Notes
   } else {
     $('.nav-wrapper').addClass('sticky');
   }
+
+Hours (project)
+mon - m:4 / a:3 / e:0
+tue - m:4 / a:3 (bootstraps)/ e:1
+wed - m:4 / a:3 / e:2
+thu - m:0 / a:0 / e:0
+fri - m:4 / a:3 / e:1
+sat - m:4 / a:3 / e:1
+sun - m:4 / a:3 / e:1
