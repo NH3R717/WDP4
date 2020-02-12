@@ -1,0 +1,75 @@
+To Do
+
+[] update readme.md
+
+[x] post stand up report
+
+[x] reply to peer stand up post
+
+Notes 
+    • boot strap class document 
+    • bootstraps installation options
+        • css & js
+        • cdn
+        • source files
+        • package manager
+    • files
+        bs.min.css
+        bs.min.js
+    • templates
+        https://goo.gl/4552jR 
+        https://goo.gl/74rinf
+    • non bootstrap and js files last
+
+    • browser styles
+        • reboot = normalizing code
+            • uses rem ! px
+
+    • "Typography
+        • uses REMs
+        • only top margin
+        • inherit often
+        • border-box sizing
+        • native font stack
+    
+
+    • Starter Template
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+// Sticky Header on homepage
+  if ($('body').hasClass('page-template-template-home')) {
+    $(window).on('scroll touchmove', throttle( 50, function (){
+      var scrolltop = $(window).scrollTop();
+
+      if (scrolltop >= offset) {
+        $('.nav-wrapper').addClass('sticky');
+        $('.content').addClass('sticky');
+      } else {
+        $('.nav-wrapper').removeClass('sticky');
+        $('.content').removeClass('sticky');
+      }
+    }));
+  } else {
+    $('.nav-wrapper').addClass('sticky');
+  }

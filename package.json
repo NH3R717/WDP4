@@ -4,6 +4,9 @@
   "description": "/*     • Umholtz, Tommy    • Full Sail University    • Web Design and Development, Bachelors of Science – Online    • Web Design Standards 2 (WDSII)",
   "main": "gulpfile.js",
   "dependencies": {
+    "@popperjs/core": "^2.0.5",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
     "node": "^13.7.0"
   },
   "devDependencies": {
