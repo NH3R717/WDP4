@@ -14,7 +14,7 @@ To Do
 
 [x] wireframe – research
 
-[] Adobe Illustrator  alternative – Affinity Designer
+[x] Adobe Illustrator  alternative – Affinity Designer
 
 [x] compile stand up report
 
@@ -48,8 +48,8 @@ Checking you link on OpenAPI link I am curious as to how/if you plan on implemen
 • review similar websites and take notes on useful design elements
  • https://webdesignledger.com/restaurant-websites-to-inspire-you/
 • decide the general functionality and layout of the project site and produce wireframes based on that concept
-[] produce project wireframes
-[] submit project wireframes in .pdf format
+[x] produce project wireframes
+[x] submit project wireframes in .pdf format
 [] update readme.md
 
 
@@ -118,6 +118,7 @@ Notes
 • 414px – 767 px
 Desktop/Tablet
 • 768+px
+
 Modal Large 310px
 Modal Small 500px
 
