@@ -58,3 +58,4 @@ git stash apply – after you go to the new dir you can add these changes
 • files not recognized by .gitignore
 git rm -r --cached node_modules
 git commit -m "removing node_modules"
+git commit --amend -m "New commit message"

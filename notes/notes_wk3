@@ -1,5 +1,12 @@
+ToDo
+
+[] layout HTML & experiment with BS
+
 [] questions for instructor
-  • 
+  • hands on JS practice
+  • SEO in TW and EN with semantic elements / keywords (best practice for SEO in multi languages)
+  • suggestion on making the site multi language
+
 
 Hours (project)
     mon - m:4 / a:3 / e:0
@@ -11,3 +18,13 @@ Hours (project)
     sun - m:0 / a:0 / e:0
 
     Total – 36 hours
+
+Bootstap (cont.)
+
+    • 12 columns
+        • containers
+           
+        • rows/columns
+
+    • bootstrap classes?
+    • sticky-top/bottom
