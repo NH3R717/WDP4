@@ -4,11 +4,12 @@
    • Umholtz, Tommy
    • Full Sail University
    • Web Design and Development, Bachelors of Science – Online
-   • Web Design Standards 2 (WDSII)
+   • Web Design Portfolio 4 (WDPIV)
    
    */
 
-html,
+
+/* html,
 body,
 div,
 span,
@@ -116,4 +117,84 @@ p {
 
 time {
     font-size: 1em;
+} */
+
+h2 {
+    display: none;
 }
+
+
+/* .row section img {
+    height: 40rem;
+} */
+
+.home {
+    margin: 0 2em 2em 2em;
+    padding-top: 2em;
+}
+
+.momDiv {
+    margin: 1em;
+}
+
+.mom {
+    /* width: 24vw; */
+    height: 63vw;
+    /* margin: 1rem; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoAndStory {
+    width: 10vw;
+    margin: 2em 1em 1em;
+}
+
+.textLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38vw;
+}
+
+.product {
+    width: 20rem;
+}
+
+.storyTitle {
+    font-size: 3.6vw;
+    width: auto;
+    height: auto;
+}
+
+.storyText {
+    font-size: 2.4vw;
+}
+
+.map {
+    width: 20em;
+}
+
+nav {
+    background-color: rgba(165, 80, 41, .8);
+    /* position: fixed; */
+    top: 0;
+}
+
+footer {
+    background-color: rgba(165, 80, 41, .8);
+}
+
+body {
+    background-image: url("/assets/brick.jpg");
+    background-size: 220px 220px;
+    background-repeat: repeat;
+}
+
+.backgroundImage {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*   */
