@@ -1,15 +1,12 @@
-@charset "UTF-8";
-
-/* 
+        @charset "UTF-8";
+        /* 
    • Umholtz, Tommy
    • Full Sail University
    • Web Design and Development, Bachelors of Science – Online
    • Web Design Portfolio 4 (WDPIV)
    
    */
-
-
-/* html,
+        /* html,
 body,
 div,
 span,
@@ -118,83 +115,138 @@ p {
 time {
     font-size: 1em;
 } */
-
-h2 {
-    display: none;
-}
-
-
-/* .row section img {
+        /* @font-face {
+            font-family: "MWindyHK";
+            src: url("/fonts/MWindyHK-Bold.otf");
+        } */
+        
+        @font-face {
+            font-family: "ShinShuMedium";
+            src: url("/fonts/ShinShuMedium.ttf");
+        }
+        
+        @font-face {
+            font-family: "FuturaMedium";
+            src: url("/fonts/Futura-Medium-01.ttf");
+        }
+        
+        @media all and (min-width: 576px) {
+            .logoAndStory {
+                /* width: 10vw; */
+                margin: 1em 2em 1em 0em;
+                font-family: "ShinShuMedium";
+                font-weight: bold;
+            }
+            .textLogo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 2em;
+                margin: 2em auto 2.2em auto;
+                width: 38vw;
+            }
+            .storyTitle {
+                font-size: 3.6vw;
+                line-height: 1.3em;
+                width: auto;
+                height: auto;
+            }
+            .storyText {
+                font-size: 2.6vw;
+                line-height: 1.3em;
+                width: auto;
+                height: auto;
+            }
+        }
+        
+        @media all and (max-width: 575px) {
+            .momDiv {
+                display: none;
+            }
+            .logoAndStory {
+                margin: 1em 2em 1em 0em;
+                font-family: "ShinShuMedium";
+                font-weight: bolder;
+            }
+            .textLogo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 2em;
+                margin-bottom: 2em;
+                width: 70vw;
+            }
+            .storyTitle {
+                font-size: 6vw;
+                margin-bottom: 1em;
+                width: auto;
+                height: auto;
+            }
+            .storyText {
+                font-size: 5vw;
+                width: auto;
+                height: auto;
+            }
+        }
+        
+        h2 {
+            display: none;
+        }
+        
+        body {
+            background-image: url("/assets/brick.jpg");
+            background-size: 220px 220px;
+            background-repeat: repeat;
+        }
+        
+        .backgroundImage {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        /* .row section img {
     height: 40rem;
 } */
-
-.home {
-    margin: 0 2em 2em 2em;
-    padding-top: 2em;
-}
-
-.momDiv {
-    margin: 1em;
-}
-
-.mom {
-    /* width: 24vw; */
-    height: 63vw;
-    /* margin: 1rem; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logoAndStory {
-    width: 10vw;
-    margin: 2em 1em 1em;
-}
-
-.textLogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 38vw;
-}
-
-.product {
-    width: 20rem;
-}
-
-.storyTitle {
-    font-size: 3.6vw;
-    width: auto;
-    height: auto;
-}
-
-.storyText {
-    font-size: 2.4vw;
-}
-
-.map {
-    width: 20em;
-}
-
-nav {
-    background-color: rgba(165, 80, 41, .8);
-    /* position: fixed; */
-    top: 0;
-}
-
-footer {
-    background-color: rgba(165, 80, 41, .8);
-}
-
-body {
-    background-image: url("/assets/brick.jpg");
-    background-size: 220px 220px;
-    background-repeat: repeat;
-}
-
-.backgroundImage {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-
-/*   */
+        
+        .home {
+            margin-bottom: 5em;
+            padding-top: 2em;
+        }
+        
+        .homeBackground {
+            background-color: rgba(179, 27, 0, 0.199);
+        }
+        
+        .momDiv {
+            margin: 1em;
+        }
+        
+        .mom {
+            height: 63vw;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* padding: 0 4em 0 0; */
+        }
+        
+        .product {
+            width: 25vw;
+            font-family: "FuturaMedium";
+        }
+        
+        .business {
+            font-family: "FuturaMedium";
+        }
+        
+        .map {
+            width: 26vw;
+        }
+        
+        nav {
+            background-color: rgba(165, 80, 41, .8);
+            /* position: fixed; */
+            top: 0;
+        }
+        
+        footer {
+            background-color: rgba(165, 80, 41, .8);
+        }
+        /*   */

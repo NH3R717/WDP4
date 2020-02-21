@@ -6,13 +6,17 @@ ToDo
   • hands on JS practice
   • SEO in TW and EN with semantic elements / keywords (best practice for SEO in multi languages)
   • suggestion on making the site multi language
+  • BS scaling uneven at different browser widths
+    • up-sizing bias towards the left of the view area and 'bunch' towards center?
+  • large Chinese font file, (no found linked webfont), will this etire font file load with the page for every view?
+
 
 
 Hours (project)
     mon - m:4 / a:3 / e:0
     tue - m:4 / a:3 / e:1
-    wed - m:4 / a:3 / e:2
-    thu - m:0 / a:0 / e:0
+    wed - m:3 / a:2 / e:0
+    thu - m:3 / a:2 / e:2
     fri - m:4 / a:2 / e:1
     sat - m:4 / a:0 / e:0
     sun - m:0 / a:0 / e:0

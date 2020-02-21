@@ -9,13 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <!-- <style>
-        main {
-            background-image: url("assets/brick.jpg");
-            background-repeat: repeat
+        body {
+            background-image: url("/assets/brick.jpg");
+            background-size: 220px 220px;
+            background-repeat: repeat;
+        }
+        
+        .backgroundImage {
+            background-color: rgba(255, 255, 255, 0.5);
         }
     </style> -->
 
@@ -49,92 +54,96 @@
                     <a href="#home">Home</a>
                     <a href="#menu">Menu</a>
                     <a href="#business">Business</a>
-                    <a href="#hours">Hours</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#location">Location</a>
                 </nav>
             </header>
-            <article class="home container">
-                <div class="d-sm-flex ">
-                    <h2>Wagui Restaurant Introduction</h2>
+            <div class="homeBackground">
+                <article class="home container d-sm-flex">
 
+                    <h2>Wagui Restaurant Introduction</h2>
                     <section class="momDiv col-sm">
                         <h2>Mom's Wagui</h2>
-                        <img class="mom d-sm-flex justify-content-center" src="assets/wagui_mom.png" alt="">
+                        <img class="mom d-md-flex" src="assets/wagui_mom.png" alt="">
                     </section>
 
                     <section class="logoAndStory col-sm">
                         <h2 class="brandTitle">Wagui Story</h2>
                         <img class="textLogo justify-content-center" src="assets/wagui_logo.svg" alt="">
-                        <p class="storyTitle  text-center">南方米造 秈稻碗粿<br> 家傳五代道地碗粿手藝
+                        <p class="storyTitle text-center">南方米造 秈稻碗粿<br> 家傳五代道地碗粿手藝
                         </p>
-                        <p class="storyText text-center">不捨阿嬤30年手藝失傳，南方米<br>造懷抱著小吃精緻化的夢想, 傳<br>承五代道地碗粿手藝, 從原料嚴<br>選到炊製都精準用心, 堅持使用<br>台南在地秈稻與非基因豆經由<br>180天發酵的天然精釀醬油, 要<br>用天然的食材讓消費者品嘗美食<br>也吃得健康。</p>
+                        <p class="storyText text-center">不捨阿嬤30年手藝失傳, 南方米<br>造懷抱著小吃精緻化的夢想, 傳<br>承五代道地碗粿手藝, 從原料嚴<br>選到炊製都精準用心, 堅持使用<br>台南在地秈稻與非基因豆經由<br>180天發酵的天然精釀醬油, 要<br>用天然的食材讓消費者品嘗美食<br>也吃得健康。</p>
+                    </section>
+
+                </article>
+            </div>
+
+            <article class="container product">
+                <div class="row">
+                    <h2>Menu</h2>
+
+                    <section class="col-md-4 duckPorkPudding">
+                        <img class="product" src="assets/duck_pudding.jpg" alt="">
+                        <h3>Duck Egg and Pork Rice Pudding</h3>
+                        <p>Local rice pudding cooked the traditional way – in a porcelain bowl ready to eat.</p>
+                    </section>
+
+                    <section class="col-md-4 blackTofuSoup">
+                        <img class="product" src="assets/black_soup.jpg" alt="">
+                        <h3> Black Tofu and Green Onion Soup</h3>
+                        <p>Beef stock soup with black and fried tofu and green onion.</p>
+                    </section>
+
+                    <section class="col-md-4 agedSoyPudding">
+                        <img class="product" src="assets/soy_pudding.jpg" alt="">
+                        <h3>Rice Pudding with Pork and Aged Soy Sauce</h3>
+                        <p>Rice pudding served with aged soy sauce and toped with green onion.</p>
                     </section>
                 </div>
             </article>
 
-            <article class="menu">
-                <h2>Menu</h2>
+            <article class="container business">
+                <div class="row">
+                    <h2>Business</h2>
 
-                <section class="duckPorkPudding">
-                    <img class="product" src="assets/duck_pudding.jpg" alt="">
-                    <h3>Duck Egg and Pork Rice Pudding</h3>
-                    <p>Local rice pudding cooked the traditional way – in a porcelain bowl ready to eat.</p>
-                </section>
+                    <section class="col-sm-4 hours">
+                        <h3>Hours</h3>
+                        <h4>Open</h4>
+                        <p>Tue-Sat<br><time>07:00</time>-<time>14:30</time>/<br><time>17:00</time>-<time>21:00</time><br>Sun<br><time>07:00</time>-<time>14:00</time></p>
+                        <h4>Closed</h4>
+                        <p>Mondays<br>National Holidays</p>
+                    </section>
 
-                <section class="blackTofuSoup">
-                    <img class="product" src="assets/black_soup.jpg" alt="">
-                    <h3>Black Tofu and Green Onion Soup</h3>
-                    <p>Beef stock soup with black and fried tofu and grea onion.</p>
-                </section>
+                    <section class="col-sm-4 contact ">
+                        <h3>Contact</h3>
+                        <h4>Phone:</h4>
+                        <p>098-098-0908</p>
+                        <h4>Email:</h4>
+                        <p>hello@wagui.com</p>
+                        <h3 class="location ">Address</h3>
+                        <address>12 Zhongshan Rd.<br>Madou District<br>Tainan City</address>
+                    </section>
 
-                <section class="agedSoyPudding">
-                    <img class="product" src="assets/soy_pudding.jpg" alt="">
-                    <h3>Rice Pudding with Pork and Aged Soy Sauce</h3>
-                    <p>Rice pudding served with aged soy sauce and toped with green onion.</p>
-                </section>
-            </article>
-            <article class="business">
-                <h2>Business</h2>
-
-                <section class="hours">
-                    <h3>Hours</h3>
-                    <h4>Open</h4>
-                    <p>Tue-Sat<br><time>07:00</time>-<time>14:30</time>/<br><time>17:00</time>-<time>21:00</time><br>Sun<br><time>07:00</time>-<time>14:00</time></p>
-                    <h4>Closed</h4>
-                    <p>Mondays<br>National Holidays</p>
-                </section>
-
-                <section class="contact">
-                    <h3>Contact</h3>
-                    <h4>Phone:</h4>
-                    <p>098-098-0908</p>
-                    <h4>Email:</h4>
-                    <p>hello@wagui.com</p>
-                    <h3 class="location">Address</h3>
-                    <address>12 Zhongshan Rd.<br>Madou District<br>Tainan City</address>
-                </section>
-
-                <section class="map">
-                    <h3>Map</h3>
-                    <img class="map" src="assets/vector_map.svg" alt="">
-                </section>
-
+                    <section class="col-md-4 map ">
+                        <h3>Map</h3>
+                        <img class="map " src="assets/vector_map.svg " alt=" ">
+                    </section>
+                </div>
             </article>
 
-            <footer class="fixed-bottom">
-                <h6><small>© 2020 Madou Restaurant – All rights reserved.</small></h6>
-                <!-- <img src="" alt=""> -->
-                <!-- <img src="" alt=""> -->
-                <!-- <img src="" alt=""> -->
-                <!-- <img src="" alt=""> -->
+            <footer class="fixed-bottom ">
+                <h6>
+                    <mdall>© 2020 Madou Restaurant – All rights reserved.</mdall>
+                </h6>
+                <!-- <img src=" " alt=" "> -->
+                <!-- <img src=" " alt=" "> -->
+                <!-- <img src=" " alt=" "> -->
+                <!-- <img src=" " alt=" "> -->
             </footer>
         </main>
     </div>
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/myScripts.js"></script> -->
+    <script src="js/jquery.slim.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <!-- <script src="js/myScripts.js "></script> -->
 
 </body>
 
