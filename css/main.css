@@ -5,119 +5,6 @@
    • Web Design Portfolio 4 (WDPIV)
    
    */
-        /* html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-sub,
-sup,
-tt,
-var,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62.5%;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1 {
-    font-size: 1.6em;
-}
-
-h2 {
-    font-size: 1.4em;
-}
-
-h3 {
-    font-size: 1.2em;
-}
-
-p {
-    font-size: 1em;
-}
-
-time {
-    font-size: 1em;
-} */
-        /* @font-face {
-            font-family: "MWindyHK";
-            src: url("/fonts/MWindyHK-Bold.otf");
-        } */
         
         @font-face {
             font-family: "ShinShuMedium";
@@ -156,9 +43,22 @@ time {
                 width: auto;
                 height: auto;
             }
+            .product {
+                width: 100%;
+            }
+            #business {
+                /* font-size: 200%; */
+                /* font-size: 140%; */
+                text-align: center;
+            }
             .map {
-                width: 26vw;
-                margin-bottom: 4em;
+                width: 90;
+                /* margin-bottom: 4em; */
+            }
+            iframe {
+                width: 90%;
+                max-width: 30em;
+                height: 20em;
             }
         }
         
@@ -195,17 +95,36 @@ time {
                 width: auto;
                 height: auto;
             }
-            .map {
-                width: 26vw;
-                margin-bottom: 4em;
+            .product {
+                width: 23vw;
             }
             #business {
-                padding-bottom: 3em;
+                font-size: 170%;
+            }
+            .map {
+                width: 100%;
+                /* margin-bottom: 1em; */
+            }
+            iframe {
+                width: 100%;
+                max-width: 20em;
+                height: 15em;
+                /* height: 100%; */
+                /* max-height: 15em; */
             }
         }
         
         h2 {
             display: none;
+        }
+        
+        #menu p {
+            margin: 0;
+        }
+        
+        #menu img {
+            padding: .5em .5em .5em 0;
+            width: 100%;
         }
         
         body {
@@ -255,34 +174,39 @@ time {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            /* padding: 0 4em 0 0; */
         }
-        
-        .product {
+        /* .product {
             width: 25vw;
-        }
+        } */
         
         #menu {
             /* width: 25vw; */
-            padding-top: 3em;
+            padding-top: 2.3em;
             font-family: "FuturaMedium";
             /* padding-bottom: 1em; */
         }
         
+        .map h3 {
+            padding-bottom: .3em;
+        }
+        
+        .description {
+            text-align: center;
+        }
+        
         #business {
             font-family: "FuturaMedium";
-            padding-top: 3.5em;
-            margin-bottom: 3em;
+            padding: 2.3em 0 3em;
+            /* margin-bottom: 3em; */
         }
         
         .map {
-            width: 26vw;
-            margin-bottom: 3.5em;
+            width: 100%;
+            /* margin-bottom: 3.5em; */
         }
         
         nav {
             background-color: rgba(165, 80, 41, .8);
-            /* position: fixed; */
             top: 0;
             height: 2.5em;
         }
@@ -290,4 +214,14 @@ time {
         footer {
             background-color: rgba(165, 80, 41, .8);
             height: 2.5em;
+        }
+        
+        footer h6 {
+            font-family: "Helvetica";
+            /* font-size: 1.2em; */
+            color: rgba(0, 0, 0, 0.8);
+            margin: 0 0 0 .6em;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
         }
