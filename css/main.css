@@ -1,4 +1,3 @@
-        @charset "UTF-8";
         /* 
    • Umholtz, Tommy
    • Full Sail University
@@ -130,12 +129,51 @@ time {
             src: url("/fonts/Futura-Medium-01.ttf");
         }
         
-        @media all and (min-width: 576px) {
+        @media all and (max-width: 575px) {
+            #home {
+                font-size: 6vw;
+                padding: 2.5em 0 .1em 0;
+                /* margin-bottom: 1em; */
+                width: auto;
+                height: auto;
+            }
+            .momDiv {
+                display: none;
+            }
             .logoAndStory {
-                /* width: 10vw; */
-                margin: 1em 2em 1em 0em;
+                margin: 0em 2em 1em 0em;
                 font-family: "ShinShuMedium";
-                font-weight: bold;
+                font-weight: bolder;
+            }
+            .textLogo {
+                display: block;
+                margin: 0 auto 0 auto;
+                /* padding: 2em 0 2em 0; */
+                width: 70vw;
+            }
+            .storyText {
+                font-size: 5vw;
+                width: auto;
+                height: auto;
+            }
+            .map {
+                width: 26vw;
+                margin-bottom: 4em;
+            }
+        }
+        
+        @media all and (min-width: 576px) {
+            /* .storyTitle {
+                padding-top: 4em;
+            } */
+            #home {
+                padding-top: 3em;
+                /* margin-bottom: 2em; */
+            }
+            .logoAndStory {
+                margin: 0em 2em 1em 0em;
+                font-family: "ShinShuMedium";
+                font-weight: bolder;
             }
             .textLogo {
                 display: block;
@@ -157,35 +195,12 @@ time {
                 width: auto;
                 height: auto;
             }
-        }
-        
-        @media all and (max-width: 575px) {
-            .momDiv {
-                display: none;
+            .map {
+                width: 26vw;
+                margin-bottom: 4em;
             }
-            .logoAndStory {
-                margin: 1em 2em 1em 0em;
-                font-family: "ShinShuMedium";
-                font-weight: bolder;
-            }
-            .textLogo {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 2em;
-                margin-bottom: 2em;
-                width: 70vw;
-            }
-            .storyTitle {
-                font-size: 6vw;
-                margin-bottom: 1em;
-                width: auto;
-                height: auto;
-            }
-            .storyText {
-                font-size: 5vw;
-                width: auto;
-                height: auto;
+            #business {
+                padding-bottom: 3em;
             }
         }
         
@@ -199,20 +214,36 @@ time {
             background-repeat: repeat;
         }
         
-        .backgroundImage {
-            background-color: rgba(255, 255, 255, 0.5);
+        #menuContainer {
+            font-family: "Helvetica";
+            font-size: 1.2em;
+            color: black;
+            margin: 0 0 0 .6em;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
         }
-        /* .row section img {
-    height: 40rem;
-} */
+        
+        #menuContainer a:link {
+            color: black;
+        }
+        
+        #menuContainer a:visited {
+            color: black;
+        }
         
         .home {
-            margin-bottom: 5em;
+            /* margin-bottom: 5em; */
             padding-top: 2em;
+        }
+        
+        .backgroundImage {
+            background-color: rgba(255, 255, 255, 0.5);
         }
         
         .homeBackground {
             background-color: rgba(179, 27, 0, 0.199);
+            /* padding-bottom: 1em; */
         }
         
         .momDiv {
@@ -229,24 +260,34 @@ time {
         
         .product {
             width: 25vw;
-            font-family: "FuturaMedium";
         }
         
-        .business {
+        #menu {
+            /* width: 25vw; */
+            padding-top: 3em;
             font-family: "FuturaMedium";
+            /* padding-bottom: 1em; */
+        }
+        
+        #business {
+            font-family: "FuturaMedium";
+            padding-top: 3.5em;
+            margin-bottom: 3em;
         }
         
         .map {
             width: 26vw;
+            margin-bottom: 3.5em;
         }
         
         nav {
             background-color: rgba(165, 80, 41, .8);
             /* position: fixed; */
             top: 0;
+            height: 2.5em;
         }
         
         footer {
             background-color: rgba(165, 80, 41, .8);
+            height: 2.5em;
         }
-        /*   */
