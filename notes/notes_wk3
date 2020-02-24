@@ -10,16 +10,23 @@ ToDo
     • up-sizing bias towards the left of the view area and 'bunch' towards center?
   • large Chinese font file, (no found linked webfont), will this etire font file load with the page for every view?
 
-[] add social media icons and links
+ToDo
+
+[x] update viewport
+[x] main.css before or after?
+[] meta tag property social media (SEO)
+[x] sticky header/footer 
+[x] BS grid
+[x] add social media icons and links
 [] background overlay color gradient
-[] rounded corners – product images
-[] varied h3/4 and p colors
-[] adjust h3/4 and p sizes
+[x] rounded corners – product images
+[x] varied h3/4 and p colors
+[x] adjust h3/4 and p sizes
 [] 2nd page in Chinese (tw)
 [] vps nginx hosting – singapore server
 [] js auto update © year
-[] 
-[] 
+[] update README.md (learn the markdown)
+[] get SASS working
 [] 
 
 Hours (project)
