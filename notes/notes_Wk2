@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
     • Umholtz, Tommy
     • Full Sail University
@@ -43,6 +44,15 @@ Instructor wireframe critique points –
   multi lingual – exactly, there is a push by the local governments here for local business to be tourist friendly, a multi lingual page (Japanese/ Korean/ etc. could easily be integrated) goes a long way towards this. it would help this business attract tourist revenue as well as may act be an advantage when trying to attract partners, get permits from the local government or acquire financing
 
   reservations – this restaurant does not currently take reservations nor is the type that will likely in the future. a conscious decision to keep the page as simple as possible was made with most of the c2b and b2b initial communications being done through FB messenger or Line. including a form page for example would be something the owner would likely not receive much traffic from and would also not be something they would not want to keep track of. messenger/ phone /email options are sufficient.
+=======
+To Do
+
+[] update readme.md
+
+[x] post stand up report
+
+[x] reply to peer stand up post
+>>>>>>> f304338e1bd323f69fd48ea84de4decdfe2f8021
 
 Notes 
     • boot strap class document 
@@ -111,3 +121,14 @@ Notes
     $('.nav-wrapper').addClass('sticky');
   }
 
+<<<<<<< HEAD
+=======
+Hours (project)
+mon - m:4 / a:3 / e:0
+tue - m:4 / a:3 (bootstraps)/ e:1
+wed - m:4 / a:3 / e:2
+thu - m:0 / a:0 / e:0
+fri - m:4 / a:2 / e:1
+sat - m:4 / a:3 / e:1
+sun - m:4 / a:3 / e:1
+>>>>>>> f304338e1bd323f69fd48ea84de4decdfe2f8021

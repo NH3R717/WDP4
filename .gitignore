@@ -1,4 +1,5 @@
 node_modules
+<<<<<<< HEAD
 bootstrap-4.4.1-dist
 css/main copy.css
 refrence_past/19_WDS_2/scss/main.css
@@ -18,3 +19,6 @@ assets/icon/mail.svg
 assets/icon/pin-1.svg
 assets/icon/pin.svg
 README copy.md
+=======
+bootstrap-4.4.1-dist
+>>>>>>> f304338e1bd323f69fd48ea84de4decdfe2f8021
