@@ -1,227 +1,239 @@
-        /* 
+    /* 
    • Umholtz, Tommy
    • Full Sail University
    • Web Design and Development, Bachelors of Science – Online
    • Web Design Portfolio 4 (WDPIV)
    
    */
-        
-        @font-face {
-            font-family: "ShinShuMedium";
-            src: url("/fonts/ShinShuMedium.ttf");
+    
+    @font-face {
+        font-family: "ShinShuMedium";
+        src: url("/fonts/ShinShuMedium.ttf");
+    }
+    
+    @font-face {
+        font-family: "FuturaMedium";
+        src: url("/fonts/Futura-Medium-01.ttf");
+    }
+    
+    @media all and (max-width: 370px) {
+        footer h6 {
+            font-size: .85em;
         }
-        
-        @font-face {
-            font-family: "FuturaMedium";
-            src: url("/fonts/Futura-Medium-01.ttf");
+    }
+    
+    @media all and (max-width: 575px) {
+        #home {
+            font-size: 6vw;
+            padding: 2.5em 0 .1em 0;
+            width: auto;
+            height: auto;
         }
-        
-        @media all and (max-width: 575px) {
-            #home {
-                font-size: 6vw;
-                padding: 2.5em 0 .1em 0;
-                /* margin-bottom: 1em; */
-                width: auto;
-                height: auto;
-            }
-            .momDiv {
-                display: none;
-            }
-            .logoAndStory {
-                margin: 0em 2em 1em 0em;
-                font-family: "ShinShuMedium";
-                font-weight: bolder;
-            }
-            .textLogo {
-                display: block;
-                margin: 0 auto 0 auto;
-                /* padding: 2em 0 2em 0; */
-                width: 70vw;
-            }
-            .storyText {
-                font-size: 5vw;
-                width: auto;
-                height: auto;
-            }
-            .product {
-                width: 100%;
-            }
-            #business {
-                /* font-size: 200%; */
-                /* font-size: 140%; */
-                text-align: center;
-            }
-            .map {
-                width: 90;
-                /* margin-bottom: 4em; */
-            }
-            iframe {
-                width: 90%;
-                max-width: 30em;
-                height: 20em;
-            }
-        }
-        
-        @media all and (min-width: 576px) {
-            /* .storyTitle {
-                padding-top: 4em;
-            } */
-            #home {
-                padding-top: 3em;
-                /* margin-bottom: 2em; */
-            }
-            .logoAndStory {
-                margin: 0em 2em 1em 0em;
-                font-family: "ShinShuMedium";
-                font-weight: bolder;
-            }
-            .textLogo {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 2em;
-                margin: 2em auto 2.2em auto;
-                width: 38vw;
-            }
-            .storyTitle {
-                font-size: 3.6vw;
-                line-height: 1.3em;
-                width: auto;
-                height: auto;
-            }
-            .storyText {
-                font-size: 2.6vw;
-                line-height: 1.3em;
-                width: auto;
-                height: auto;
-            }
-            .product {
-                width: 23vw;
-            }
-            #business {
-                font-size: 170%;
-            }
-            .map {
-                width: 100%;
-                /* margin-bottom: 1em; */
-            }
-            iframe {
-                width: 100%;
-                max-width: 20em;
-                height: 15em;
-                /* height: 100%; */
-                /* max-height: 15em; */
-            }
-        }
-        
-        h2 {
+        .momDiv {
             display: none;
         }
-        
-        #menu p {
-            margin: 0;
+        .logoAndStory {
+            margin: 0em 2em 1em 0em;
+            font-family: "ShinShuMedium";
+            font-weight: bolder;
         }
-        
-        #menu img {
-            padding: .5em .5em .5em 0;
+        .textLogo {
+            display: block;
+            margin: 0 auto 0 auto;
+            /* padding: 2em 0 2em 0; */
+            width: 70vw;
+        }
+        .storyText {
+            font-size: 5vw;
+            width: auto;
+            height: auto;
+        }
+        .product {
             width: 100%;
         }
-        
-        body {
-            background-image: url("/assets/brick.jpg");
-            background-size: 220px 220px;
-            background-repeat: repeat;
+        #business {
+            /* font-size: 200%; */
+            /* font-size: 140%; */
+            text-align: center;
         }
-        
-        #menuContainer {
-            font-family: "Helvetica";
-            font-size: 1.2em;
-            color: black;
-            margin: 0 0 0 .6em;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
+        .map {
+            width: 90%;
+            /* margin-bottom: 4em; */
         }
-        
-        #menuContainer a:link {
-            color: black;
+        iframe {
+            width: 90%;
+            max-width: 30em;
+            height: 20em;
         }
-        
-        #menuContainer a:visited {
-            color: black;
+        .socialIcon {
+            height: 80%;
+            padding: .5em 1em 0 0;
+            /* display: inline; */
+            float: right;
         }
-        
-        .home {
-            /* margin-bottom: 5em; */
-            padding-top: 2em;
+    }
+    
+    @media all and (min-width: 576px) {
+        /* .storyTitle {
+                padding-top: 4em;
+            } */
+        #home {
+            padding-top: 3em;
+            /* margin-bottom: 2em; */
         }
-        
-        .backgroundImage {
-            background-color: rgba(255, 255, 255, 0.5);
+        .logoAndStory {
+            margin: 0em 2em 1em 0em;
+            font-family: "ShinShuMedium";
+            font-weight: bolder;
         }
-        
-        .homeBackground {
-            background-color: rgba(179, 27, 0, 0.199);
-            /* padding-bottom: 1em; */
-        }
-        
-        .momDiv {
-            margin: 1em;
-        }
-        
-        .mom {
-            height: 63vw;
+        .textLogo {
             display: block;
             margin-left: auto;
             margin-right: auto;
+            margin-top: 2em;
+            margin: 2em auto 2.2em auto;
+            width: 38vw;
         }
-        /* .product {
-            width: 25vw;
-        } */
-        
-        #menu {
-            /* width: 25vw; */
-            padding-top: 2.3em;
-            font-family: "FuturaMedium";
-            /* padding-bottom: 1em; */
+        .storyTitle {
+            font-size: 3.6vw;
+            line-height: 1.3em;
+            width: auto;
+            height: auto;
         }
-        
-        .map h3 {
-            padding-bottom: .3em;
+        .storyText {
+            font-size: 2.6vw;
+            line-height: 1.3em;
+            width: auto;
+            height: auto;
         }
-        
-        .description {
-            text-align: center;
+        .product {
+            width: 23vw;
         }
-        
         #business {
-            font-family: "FuturaMedium";
-            padding: 2.3em 0 3em;
-            /* margin-bottom: 3em; */
+            font-size: 170%;
         }
-        
         .map {
             width: 100%;
-            /* margin-bottom: 3.5em; */
+            /* margin-bottom: 1em; */
         }
-        
-        nav {
-            background-color: rgba(165, 80, 41, .8);
-            top: 0;
-            height: 2.5em;
+        iframe {
+            width: 100%;
+            max-width: 20em;
+            height: 15em;
+            /* height: 100%; */
+            /* max-height: 15em; */
         }
-        
-        footer {
-            background-color: rgba(165, 80, 41, .8);
-            height: 2.5em;
+        .socialIcon {
+            height: 80%;
+            padding: .5em 2em 0 0;
+            /* display: inline; */
+            float: right;
         }
-        
-        footer h6 {
-            font-family: "Helvetica";
-            /* font-size: 1.2em; */
-            color: rgba(0, 0, 0, 0.8);
-            margin: 0 0 0 .6em;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-        }
+    }
+    
+    h2 {
+        display: none;
+    }
+    
+    body {
+        background-image: url("/assets/brick.jpg");
+        background-size: 220px 220px;
+        background-repeat: repeat;
+    }
+    
+    nav {
+        background-color: rgba(165, 80, 41, .8);
+        top: 0;
+        height: 2.5em;
+    }
+    
+    #navContainer {
+        font-family: "Helvetica";
+        font-size: 1.2em;
+        color: black;
+        margin: 0 0 0 .6em;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    #navContainer a:link {
+        color: black;
+    }
+    
+    #navContainer a:visited {
+        color: black;
+    }
+    
+    #productMenu {
+        /* width: 25vw; */
+        padding-top: 2.3em;
+        font-family: "FuturaMedium";
+        /* padding-bottom: 1em; */
+    }
+    
+    #productMenu p {
+        margin: 0;
+    }
+    
+    #productMenu img {
+        padding: .5em .5em .5em 0;
+        width: 100%;
+    }
+    
+    #brandingHeroContainer {
+        /* margin-bottom: 5em; */
+        padding-top: 2em;
+    }
+    
+    .backgroundImage {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .homeBackground {
+        background-color: rgba(179, 27, 0, 0.199);
+        /* padding-bottom: 1em; */
+    }
+    
+    .momDiv {
+        margin: 1em;
+    }
+    
+    .mom {
+        height: 63vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .productDescription {
+        text-align: center;
+    }
+    
+    #business {
+        font-family: "FuturaMedium";
+        padding-top: 2.3em;
+    }
+    
+    .map {
+        width: 100%;
+        margin-bottom: 2.5em;
+    }
+    
+    .map h3 {
+        padding-bottom: .3em;
+    }
+    
+    footer {
+        background-color: rgba(165, 80, 41, .8);
+        height: 2.5em;
+    }
+    
+    footer h6 {
+        font-family: "Helvetica";
+        color: rgba(0, 0, 0, 0.8);
+        margin: 0 0 0 .6em;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
