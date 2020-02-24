@@ -1,0 +1,70 @@
+ToDo
+
+[] layout HTML & experiment with BS
+
+[] questions for instructor
+  • hands on JS practice
+  • SEO in TW and EN with semantic elements / keywords (best practice for SEO in multi languages)
+  • suggestion on making the site multi language
+  • BS scaling uneven at different browser widths
+    • up-sizing bias towards the left of the view area and 'bunch' towards center?
+  • large Chinese font file, (no found linked webfont), will this etire font file load with the page for every view?
+
+ToDo
+
+[x] update viewport
+[x] main.css before or after?
+[] meta tag property social media (SEO)
+[x] sticky header/footer 
+[x] BS grid
+[x] add social media icons and links
+[] background overlay color gradient
+[x] rounded corners – product images
+[x] varied h3/4 and p colors
+[x] adjust h3/4 and p sizes
+[] 2nd page in Chinese (tw)
+[] vps nginx hosting – singapore server
+[] js auto update © year
+[] update README.md (learn the markdown)
+[] get SASS working
+[] 
+
+Hours (project)
+    mon - m:4 / a:0 / e:0
+    tue - m:3 / a:3 / e:1
+    wed - m:3 / a:2 / e:0
+    thu - m:3 / a:2 / e:2
+    fri - m:3 / a:2 / e:1
+    sat - m:0 / a:0 / e:0
+    sun - m:3 / a:3 / e:1
+
+    Total – 36 hours
+
+Bootstap (cont.)
+
+    • 12 columns
+        • containers
+           
+        • rows/columns
+
+    • bootstrap classes?
+    • sticky-top/bottom
+
+    Notes
+    • jump link
+        your jump link looks like this
+
+        <a href="#div_id">jump link</a>
+
+        then make
+
+        <div id="div_id"></div>
+    [x] update viewport
+    [] main.css before or after?
+    [] meta tag property social media 
+    [] sticky header/footer 
+    [] BS grid
+    [] hide headings best practice
+    [] 
+    [] 
+    [] 

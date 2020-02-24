@@ -57,4 +57,9 @@ git stash – so you can change your working dir when you have changes that are 
 git stash apply – after you go to the new dir you can add these changes
 • files not recognized by .gitignore
 git rm -r --cached node_modules
+<<<<<<< HEAD
 git commit -m "removing node_modules"
+git commit --amend -m "New commit message"
+=======
+git commit -m "removing node_modules"
+>>>>>>> f304338e1bd323f69fd48ea84de4decdfe2f8021
