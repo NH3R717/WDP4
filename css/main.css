@@ -48,6 +48,9 @@
             text-align: center;
             font-size: 100%;
         }
+        #business h1 {
+            text-align: left;
+        }
         .map {
             width: 90%;
         }
@@ -161,6 +164,11 @@
         }
     }
     
+    h1 {
+        color: rgb(83, 7, 7);
+        text-shadow: 0.03em 0.03em 0.03em grey;
+    }
+    
     h2 {
         display: none;
     }
@@ -176,7 +184,10 @@
     }
     
     .homeBackground {
-        background-color: rgba(179, 27, 0, 0.199);
+        /* background: linear-gradient(rgba(179, 27, 0, 0.3), 98%, rgba(0, 0, 0, 0)); */
+        border-bottom: .2em solid brown;
+        background: rgba(179, 27, 0, 0.199);
+        padding-bottom: .5em;
     }
     
     nav {
@@ -220,14 +231,14 @@
     }
     
     #productMenu {
-        padding-top: 2.3em;
+        padding-top: 2em;
         font-family: "FuturaMedium";
     }
     
     #productMenu img {
-        padding: 1.5em .5em .3em 0;
+        margin: .5em .5em .3em 0;
         width: 100%;
-        border-radius: 1em;
+        border-radius: .8em;
     }
     
     .productDescription {
@@ -251,7 +262,7 @@
     
     #business {
         font-family: "FuturaMedium";
-        padding-top: 2.3em;
+        padding-top: 1.5em;
     }
     
     #business h3 {
