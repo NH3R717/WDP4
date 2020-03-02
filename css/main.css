@@ -101,6 +101,9 @@
             text-align: center;
             font-size: 120%;
         }
+        #business h1 {
+            text-align: left;
+        }
         .map {
             width: 90%;
             /* margin-bottom: 4em; */
@@ -184,7 +187,6 @@
     }
     
     .homeBackground {
-        /* background: linear-gradient(rgba(179, 27, 0, 0.3), 98%, rgba(0, 0, 0, 0)); */
         border-bottom: .2em solid brown;
         background: rgba(179, 27, 0, 0.199);
         padding-bottom: .5em;
@@ -200,7 +202,7 @@
         font-family: "Helvetica";
         font-size: 1.2em;
         color: black;
-        margin: 0 0 0 .6em;
+        margin: 0.05em 0 0 0.6em;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -235,10 +237,16 @@
         font-family: "FuturaMedium";
     }
     
+    #productMenu h1 {
+        margin-bottom: -.15em;
+    }
+    
     #productMenu img {
-        margin: .5em .5em .3em 0;
+        margin: 1.5em .5em .3em 0;
         width: 100%;
         border-radius: .8em;
+        border: .1em solid brown;
+        box-shadow: 0.1em 0.1em 0.2em grey;
     }
     
     .productDescription {
@@ -262,7 +270,7 @@
     
     #business {
         font-family: "FuturaMedium";
-        padding-top: 1.5em;
+        padding-top: 1.2em;
     }
     
     #business h3 {
@@ -277,12 +285,21 @@
         text-shadow: 0.03em 0.03em 0.03em grey;
     }
     
+    #business h5 {
+        margin: .4em 0 0 0;
+        color: rgb(190, 38, 38);
+        text-shadow: 0.03em 0.03em 0.03em grey;
+    }
+    
     #business p {
+        margin-bottom: .4em;
+        line-height: 1.3em;
         color: rgb(110, 29, 29);
         text-shadow: 0.03em 0.03em 0.03em grey;
     }
     
     #business address {
+        line-height: 1.3em;
         color: rgb(110, 29, 29);
         text-shadow: 0.03em 0.03em 0.03em grey;
     }
